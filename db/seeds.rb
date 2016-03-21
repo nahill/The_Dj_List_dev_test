@@ -5,3 +5,13 @@
 #   
 #   cities = City.create([{ :name => 'Chicago' }, { :name => 'Copenhagen' }])
 #   Major.create(:name => 'Daley', :city => cities.first)
+ require 'csv'
+ 
+  
+
+    csv_text = File.read('D.csv')
+    csv = CSV.parse(csv_text, :headers => true)
+    csv.each do |row|
+    Dj.create!(:name => row.to_s)
+end
+    

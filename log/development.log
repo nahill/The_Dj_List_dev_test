@@ -1354,3 +1354,904 @@ TypeError (can't dup Fixnum):
 Rendered rescues/_trace (28.3ms)
 Rendered rescues/_request_and_response (0.9ms)
 Rendering rescues/layout (internal_server_error)
+
+
+Processing DjsController#index (for 71.53.168.252 at 2016-03-21 01:31:00) [GET]
+  [4;36;1mDj Load (0.4ms)[0m   [0;1mSELECT * FROM "djs" [0m
+Rendering template within layouts/djs
+Rendering djs/index
+Completed in 23ms (View: 13, DB: 0) | 200 OK [https://the-dj-list-dev-test-nealhdotdev.c9users.io/]
+
+
+Processing DjsController#new (for 71.53.168.252 at 2016-03-21 01:31:04) [GET]
+Rendering template within layouts/djs
+Rendering djs/new
+Completed in 22ms (View: 17, DB: 0) | 200 OK [https://the-dj-list-dev-test-nealhdotdev.c9users.io/djs/new]
+
+
+Processing DjsController#index (for 71.53.168.252 at 2016-03-21 01:31:09) [GET]
+  [4;35;1mDj Load (0.4ms)[0m   [0mSELECT * FROM "djs" [0m
+Rendering template within layouts/djs
+Rendering djs/index
+Completed in 7ms (View: 1, DB: 0) | 200 OK [https://the-dj-list-dev-test-nealhdotdev.c9users.io/djs]
+
+
+Processing DjsController#index (for 71.53.168.252 at 2016-03-21 01:32:51) [GET]
+  [4;36;1mDj Load (0.3ms)[0m   [0;1mSELECT * FROM "djs" [0m
+Rendering template within layouts/djs
+Rendering djs/index
+Completed in 4ms (View: 1, DB: 0) | 200 OK [https://the-dj-list-dev-test-nealhdotdev.c9users.io/djs]
+  [4;36;1mDj Create (0.4ms)[0m   [0;1mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES('--- 
+- !str:CSV::Cell |
+ DAVID GUETTA
+ HARDWELL
+ TIESTO
+ MARTIN GARRIX
+ AVICII
+ AFROJACK
+ DIMITRI VEGAS & LIKE MIKE
+ SKRILLEX
+ ARMIN VAN BUUREN
+ CALVIN HARRIS
+ STEVE AOKI
+ NICKY ROMERO
+ DEADMAU5
+ R3HAB
+ SWEDISH HOUSE MAFIA
+ ZEDD
+ W&W
+ DVBBS
+ DAFT PUNK
+ ALESSO
+ SNAKE
+ AXWELL
+ NERVO
+ BLASTERJAXX
+ SHOWTEK
+ FEDDE LE GRAND
+ DIPLO
+ PAUL VAN DYK
+ BORGEOUS
+ JUICY M
+ DASH BERLIN
+ SANDER VAN DOORN
+ ABOVE & BEYOND
+ BASSJACKERS
+ TOMMY TRASH
+ CARL COX
+ LAIDBACK LUKE
+ BINGO PLAYERS
+ UMMET OZCAN
+ DADA LIFE
+ DANNIC
+ STEVE ANGELLO
+ KNIFE PARTY
+ MAJOR LAZER
+ OLIVER HELDENS
+ KREWELLA
+ VINAI
+ DYRO
+ DON DIABLO
+ DILLON FRANCIS
+ KSHMR
+ BL3ND
+ FIREBEATZ
+ DEORRO
+ ERIC PRYDZ
+ QUINTINO
+ MAKJ
+ RICHIE HAWTIN
+ KASKADE
+ ADAM BEYER
+ SVEN VATH
+ KYGO
+ THE CHAINSMOKERS
+ MARKUS SCHULZ
+ SICK INDIVIDUALS
+ 3LAU
+ ALY & FILA
+ BORGORE
+ CARNAGE
+ NINA KRAVIZ
+ CHUCKIE
+ PAUL OAKENFOLD
+ FERRY CORSTEN
+ THOMAS GOLD
+ MARCO CAROLA
+ BENNY BENASSI
+ JAY HARDWAY
+ DUBFIRE
+ MOTI
+ TJR
+ LOCO DICE
+ ADVENTURE CLUB
+ DZEKO & TORRES
+ GARETH EMERY
+ DIRTY SOUTH
+ NYK
+ FTAMPA
+ HEADHUNTERZ
+ VICETONE
+ KILL THE NOISE
+ JOHN DIGWEED
+ UMEK
+ MOGUAI
+ ANDREW RAYEL
+ REDFOO
+ JAUZ
+ JAMIE JONES
+ SHADOW
+ ZOMBOY
+ MACEO PLEX
+
+', '2016-03-21 01:36:58', '2016-03-21 01:36:58')[0m
+
+
+Processing DjsController#index (for 71.53.168.252 at 2016-03-21 01:37:25) [GET]
+  [4;36;1mDj Load (0.5ms)[0m   [0;1mSELECT * FROM "djs" [0m
+Rendering template within layouts/djs
+Rendering djs/index
+Completed in 21ms (View: 14, DB: 1) | 200 OK [https://the-dj-list-dev-test-nealhdotdev.c9users.io/djs]
+  [4;36;1mDj Create (0.3ms)[0m   [0;1mINSERT INTO "djs" ("updated_at", "created_at", "name") VALUES('2016-03-21 01:40:41', '2016-03-21 01:40:41', '--- 
+- !str:CSV::Cell DAVID GUETTA
+')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("updated_at", "created_at", "name") VALUES('2016-03-21 01:40:41', '2016-03-21 01:40:41', '--- 
+- !str:CSV::Cell HARDWELL
+')[0m
+  [4;36;1mDj Create (0.3ms)[0m   [0;1mINSERT INTO "djs" ("updated_at", "created_at", "name") VALUES('2016-03-21 01:40:41', '2016-03-21 01:40:41', '--- 
+- !str:CSV::Cell TIESTO
+')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("updated_at", "created_at", "name") VALUES('2016-03-21 01:40:41', '2016-03-21 01:40:41', '--- 
+- !str:CSV::Cell MARTIN GARRIX
+')[0m
+  [4;36;1mDj Create (0.3ms)[0m   [0;1mINSERT INTO "djs" ("updated_at", "created_at", "name") VALUES('2016-03-21 01:40:41', '2016-03-21 01:40:41', '--- 
+- !str:CSV::Cell AVICII
+')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("updated_at", "created_at", "name") VALUES('2016-03-21 01:40:41', '2016-03-21 01:40:41', '--- 
+- !str:CSV::Cell AFROJACK
+')[0m
+  [4;36;1mDj Create (0.3ms)[0m   [0;1mINSERT INTO "djs" ("updated_at", "created_at", "name") VALUES('2016-03-21 01:40:41', '2016-03-21 01:40:41', '--- 
+- !str:CSV::Cell DIMITRI VEGAS & LIKE MIKE
+')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("updated_at", "created_at", "name") VALUES('2016-03-21 01:40:41', '2016-03-21 01:40:41', '--- 
+- !str:CSV::Cell SKRILLEX
+')[0m
+  [4;36;1mDj Create (0.3ms)[0m   [0;1mINSERT INTO "djs" ("updated_at", "created_at", "name") VALUES('2016-03-21 01:40:41', '2016-03-21 01:40:41', '--- 
+- !str:CSV::Cell ARMIN VAN BUUREN
+')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("updated_at", "created_at", "name") VALUES('2016-03-21 01:40:41', '2016-03-21 01:40:41', '--- 
+- !str:CSV::Cell CALVIN HARRIS
+')[0m
+  [4;36;1mDj Create (0.4ms)[0m   [0;1mINSERT INTO "djs" ("updated_at", "created_at", "name") VALUES('2016-03-21 01:40:41', '2016-03-21 01:40:41', '--- 
+- !str:CSV::Cell STEVE AOKI
+')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("updated_at", "created_at", "name") VALUES('2016-03-21 01:40:41', '2016-03-21 01:40:41', '--- 
+- !str:CSV::Cell NICKY ROMERO
+')[0m
+  [4;36;1mDj Create (0.6ms)[0m   [0;1mINSERT INTO "djs" ("updated_at", "created_at", "name") VALUES('2016-03-21 01:40:41', '2016-03-21 01:40:41', '--- 
+- !str:CSV::Cell DEADMAU5
+')[0m
+  [4;35;1mDj Create (0.4ms)[0m   [0mINSERT INTO "djs" ("updated_at", "created_at", "name") VALUES('2016-03-21 01:40:41', '2016-03-21 01:40:41', '--- 
+- !str:CSV::Cell R3HAB
+')[0m
+  [4;36;1mDj Create (0.3ms)[0m   [0;1mINSERT INTO "djs" ("updated_at", "created_at", "name") VALUES('2016-03-21 01:40:41', '2016-03-21 01:40:41', '--- 
+- !str:CSV::Cell SWEDISH HOUSE MAFIA
+')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("updated_at", "created_at", "name") VALUES('2016-03-21 01:40:41', '2016-03-21 01:40:41', '--- 
+- !str:CSV::Cell ZEDD
+')[0m
+  [4;36;1mDj Create (0.3ms)[0m   [0;1mINSERT INTO "djs" ("updated_at", "created_at", "name") VALUES('2016-03-21 01:40:41', '2016-03-21 01:40:41', '--- 
+- !str:CSV::Cell W&W
+')[0m
+  [4;35;1mDj Create (0.5ms)[0m   [0mINSERT INTO "djs" ("updated_at", "created_at", "name") VALUES('2016-03-21 01:40:41', '2016-03-21 01:40:41', '--- 
+- !str:CSV::Cell DVBBS
+')[0m
+  [4;36;1mDj Create (0.3ms)[0m   [0;1mINSERT INTO "djs" ("updated_at", "created_at", "name") VALUES('2016-03-21 01:40:41', '2016-03-21 01:40:41', '--- 
+- !str:CSV::Cell DAFT PUNK
+')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("updated_at", "created_at", "name") VALUES('2016-03-21 01:40:41', '2016-03-21 01:40:41', '--- 
+- !str:CSV::Cell ALESSO
+')[0m
+  [4;36;1mDj Create (0.3ms)[0m   [0;1mINSERT INTO "djs" ("updated_at", "created_at", "name") VALUES('2016-03-21 01:40:41', '2016-03-21 01:40:41', '--- 
+- !str:CSV::Cell SNAKE
+')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("updated_at", "created_at", "name") VALUES('2016-03-21 01:40:41', '2016-03-21 01:40:41', '--- 
+- !str:CSV::Cell AXWELL
+')[0m
+  [4;36;1mDj Create (0.3ms)[0m   [0;1mINSERT INTO "djs" ("updated_at", "created_at", "name") VALUES('2016-03-21 01:40:41', '2016-03-21 01:40:41', '--- 
+- !str:CSV::Cell NERVO
+')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("updated_at", "created_at", "name") VALUES('2016-03-21 01:40:41', '2016-03-21 01:40:41', '--- 
+- !str:CSV::Cell BLASTERJAXX
+')[0m
+  [4;36;1mDj Create (0.3ms)[0m   [0;1mINSERT INTO "djs" ("updated_at", "created_at", "name") VALUES('2016-03-21 01:40:41', '2016-03-21 01:40:41', '--- 
+- !str:CSV::Cell SHOWTEK
+')[0m
+  [4;35;1mDj Create (0.4ms)[0m   [0mINSERT INTO "djs" ("updated_at", "created_at", "name") VALUES('2016-03-21 01:40:41', '2016-03-21 01:40:41', '--- 
+- !str:CSV::Cell FEDDE LE GRAND
+')[0m
+  [4;36;1mDj Create (0.3ms)[0m   [0;1mINSERT INTO "djs" ("updated_at", "created_at", "name") VALUES('2016-03-21 01:40:41', '2016-03-21 01:40:41', '--- 
+- !str:CSV::Cell DIPLO
+')[0m
+  [4;35;1mDj Create (0.2ms)[0m   [0mINSERT INTO "djs" ("updated_at", "created_at", "name") VALUES('2016-03-21 01:40:41', '2016-03-21 01:40:41', '--- 
+- !str:CSV::Cell PAUL VAN DYK
+')[0m
+  [4;36;1mDj Create (0.2ms)[0m   [0;1mINSERT INTO "djs" ("updated_at", "created_at", "name") VALUES('2016-03-21 01:40:41', '2016-03-21 01:40:41', '--- 
+- !str:CSV::Cell BORGEOUS
+')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("updated_at", "created_at", "name") VALUES('2016-03-21 01:40:41', '2016-03-21 01:40:41', '--- 
+- !str:CSV::Cell JUICY M
+')[0m
+  [4;36;1mDj Create (0.2ms)[0m   [0;1mINSERT INTO "djs" ("updated_at", "created_at", "name") VALUES('2016-03-21 01:40:41', '2016-03-21 01:40:41', '--- 
+- !str:CSV::Cell DASH BERLIN
+')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("updated_at", "created_at", "name") VALUES('2016-03-21 01:40:41', '2016-03-21 01:40:41', '--- 
+- !str:CSV::Cell SANDER VAN DOORN
+')[0m
+  [4;36;1mDj Create (0.3ms)[0m   [0;1mINSERT INTO "djs" ("updated_at", "created_at", "name") VALUES('2016-03-21 01:40:42', '2016-03-21 01:40:42', '--- 
+- !str:CSV::Cell ABOVE & BEYOND
+')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("updated_at", "created_at", "name") VALUES('2016-03-21 01:40:42', '2016-03-21 01:40:42', '--- 
+- !str:CSV::Cell BASSJACKERS
+')[0m
+  [4;36;1mDj Create (0.5ms)[0m   [0;1mINSERT INTO "djs" ("updated_at", "created_at", "name") VALUES('2016-03-21 01:40:42', '2016-03-21 01:40:42', '--- 
+- !str:CSV::Cell TOMMY TRASH
+')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("updated_at", "created_at", "name") VALUES('2016-03-21 01:40:42', '2016-03-21 01:40:42', '--- 
+- !str:CSV::Cell CARL COX
+')[0m
+  [4;36;1mDj Create (0.4ms)[0m   [0;1mINSERT INTO "djs" ("updated_at", "created_at", "name") VALUES('2016-03-21 01:40:42', '2016-03-21 01:40:42', '--- 
+- !str:CSV::Cell LAIDBACK LUKE
+')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("updated_at", "created_at", "name") VALUES('2016-03-21 01:40:42', '2016-03-21 01:40:42', '--- 
+- !str:CSV::Cell BINGO PLAYERS
+')[0m
+  [4;36;1mDj Create (0.3ms)[0m   [0;1mINSERT INTO "djs" ("updated_at", "created_at", "name") VALUES('2016-03-21 01:40:42', '2016-03-21 01:40:42', '--- 
+- !str:CSV::Cell UMMET OZCAN
+')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("updated_at", "created_at", "name") VALUES('2016-03-21 01:40:42', '2016-03-21 01:40:42', '--- 
+- !str:CSV::Cell DADA LIFE
+')[0m
+  [4;36;1mDj Create (0.2ms)[0m   [0;1mINSERT INTO "djs" ("updated_at", "created_at", "name") VALUES('2016-03-21 01:40:42', '2016-03-21 01:40:42', '--- 
+- !str:CSV::Cell DANNIC
+')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("updated_at", "created_at", "name") VALUES('2016-03-21 01:40:42', '2016-03-21 01:40:42', '--- 
+- !str:CSV::Cell STEVE ANGELLO
+')[0m
+  [4;36;1mDj Create (0.3ms)[0m   [0;1mINSERT INTO "djs" ("updated_at", "created_at", "name") VALUES('2016-03-21 01:40:42', '2016-03-21 01:40:42', '--- 
+- !str:CSV::Cell KNIFE PARTY
+')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("updated_at", "created_at", "name") VALUES('2016-03-21 01:40:42', '2016-03-21 01:40:42', '--- 
+- !str:CSV::Cell MAJOR LAZER
+')[0m
+  [4;36;1mDj Create (0.3ms)[0m   [0;1mINSERT INTO "djs" ("updated_at", "created_at", "name") VALUES('2016-03-21 01:40:42', '2016-03-21 01:40:42', '--- 
+- !str:CSV::Cell OLIVER HELDENS
+')[0m
+  [4;35;1mDj Create (0.5ms)[0m   [0mINSERT INTO "djs" ("updated_at", "created_at", "name") VALUES('2016-03-21 01:40:42', '2016-03-21 01:40:42', '--- 
+- !str:CSV::Cell KREWELLA
+')[0m
+  [4;36;1mDj Create (0.3ms)[0m   [0;1mINSERT INTO "djs" ("updated_at", "created_at", "name") VALUES('2016-03-21 01:40:42', '2016-03-21 01:40:42', '--- 
+- !str:CSV::Cell VINAI
+')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("updated_at", "created_at", "name") VALUES('2016-03-21 01:40:42', '2016-03-21 01:40:42', '--- 
+- !str:CSV::Cell DYRO
+')[0m
+  [4;36;1mDj Create (0.3ms)[0m   [0;1mINSERT INTO "djs" ("updated_at", "created_at", "name") VALUES('2016-03-21 01:40:42', '2016-03-21 01:40:42', '--- 
+- !str:CSV::Cell DON DIABLO
+')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("updated_at", "created_at", "name") VALUES('2016-03-21 01:40:42', '2016-03-21 01:40:42', '--- 
+- !str:CSV::Cell DILLON FRANCIS
+')[0m
+  [4;36;1mDj Create (0.3ms)[0m   [0;1mINSERT INTO "djs" ("updated_at", "created_at", "name") VALUES('2016-03-21 01:40:42', '2016-03-21 01:40:42', '--- 
+- !str:CSV::Cell KSHMR
+')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("updated_at", "created_at", "name") VALUES('2016-03-21 01:40:42', '2016-03-21 01:40:42', '--- 
+- !str:CSV::Cell BL3ND
+')[0m
+  [4;36;1mDj Create (0.3ms)[0m   [0;1mINSERT INTO "djs" ("updated_at", "created_at", "name") VALUES('2016-03-21 01:40:42', '2016-03-21 01:40:42', '--- 
+- !str:CSV::Cell FIREBEATZ
+')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("updated_at", "created_at", "name") VALUES('2016-03-21 01:40:42', '2016-03-21 01:40:42', '--- 
+- !str:CSV::Cell DEORRO
+')[0m
+  [4;36;1mDj Create (1.7ms)[0m   [0;1mINSERT INTO "djs" ("updated_at", "created_at", "name") VALUES('2016-03-21 01:40:42', '2016-03-21 01:40:42', '--- 
+- !str:CSV::Cell ERIC PRYDZ
+')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("updated_at", "created_at", "name") VALUES('2016-03-21 01:40:42', '2016-03-21 01:40:42', '--- 
+- !str:CSV::Cell QUINTINO
+')[0m
+  [4;36;1mDj Create (0.2ms)[0m   [0;1mINSERT INTO "djs" ("updated_at", "created_at", "name") VALUES('2016-03-21 01:40:42', '2016-03-21 01:40:42', '--- 
+- !str:CSV::Cell MAKJ
+')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("updated_at", "created_at", "name") VALUES('2016-03-21 01:40:42', '2016-03-21 01:40:42', '--- 
+- !str:CSV::Cell RICHIE HAWTIN
+')[0m
+  [4;36;1mDj Create (0.3ms)[0m   [0;1mINSERT INTO "djs" ("updated_at", "created_at", "name") VALUES('2016-03-21 01:40:42', '2016-03-21 01:40:42', '--- 
+- !str:CSV::Cell KASKADE
+')[0m
+  [4;35;1mDj Create (0.2ms)[0m   [0mINSERT INTO "djs" ("updated_at", "created_at", "name") VALUES('2016-03-21 01:40:42', '2016-03-21 01:40:42', '--- 
+- !str:CSV::Cell ADAM BEYER
+')[0m
+  [4;36;1mDj Create (0.3ms)[0m   [0;1mINSERT INTO "djs" ("updated_at", "created_at", "name") VALUES('2016-03-21 01:40:42', '2016-03-21 01:40:42', '--- 
+- !str:CSV::Cell SVEN VATH
+')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("updated_at", "created_at", "name") VALUES('2016-03-21 01:40:42', '2016-03-21 01:40:42', '--- 
+- !str:CSV::Cell KYGO
+')[0m
+  [4;36;1mDj Create (0.3ms)[0m   [0;1mINSERT INTO "djs" ("updated_at", "created_at", "name") VALUES('2016-03-21 01:40:42', '2016-03-21 01:40:42', '--- 
+- !str:CSV::Cell THE CHAINSMOKERS
+')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("updated_at", "created_at", "name") VALUES('2016-03-21 01:40:42', '2016-03-21 01:40:42', '--- 
+- !str:CSV::Cell MARKUS SCHULZ
+')[0m
+  [4;36;1mDj Create (0.3ms)[0m   [0;1mINSERT INTO "djs" ("updated_at", "created_at", "name") VALUES('2016-03-21 01:40:42', '2016-03-21 01:40:42', '--- 
+- !str:CSV::Cell SICK INDIVIDUALS
+')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("updated_at", "created_at", "name") VALUES('2016-03-21 01:40:42', '2016-03-21 01:40:42', '--- 
+- !str:CSV::Cell 3LAU
+')[0m
+  [4;36;1mDj Create (0.3ms)[0m   [0;1mINSERT INTO "djs" ("updated_at", "created_at", "name") VALUES('2016-03-21 01:40:42', '2016-03-21 01:40:42', '--- 
+- !str:CSV::Cell ALY & FILA
+')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("updated_at", "created_at", "name") VALUES('2016-03-21 01:40:42', '2016-03-21 01:40:42', '--- 
+- !str:CSV::Cell BORGORE
+')[0m
+  [4;36;1mDj Create (0.3ms)[0m   [0;1mINSERT INTO "djs" ("updated_at", "created_at", "name") VALUES('2016-03-21 01:40:42', '2016-03-21 01:40:42', '--- 
+- !str:CSV::Cell CARNAGE
+')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("updated_at", "created_at", "name") VALUES('2016-03-21 01:40:42', '2016-03-21 01:40:42', '--- 
+- !str:CSV::Cell NINA KRAVIZ
+')[0m
+  [4;36;1mDj Create (0.3ms)[0m   [0;1mINSERT INTO "djs" ("updated_at", "created_at", "name") VALUES('2016-03-21 01:40:42', '2016-03-21 01:40:42', '--- 
+- !str:CSV::Cell CHUCKIE
+')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("updated_at", "created_at", "name") VALUES('2016-03-21 01:40:42', '2016-03-21 01:40:42', '--- 
+- !str:CSV::Cell PAUL OAKENFOLD
+')[0m
+  [4;36;1mDj Create (0.3ms)[0m   [0;1mINSERT INTO "djs" ("updated_at", "created_at", "name") VALUES('2016-03-21 01:40:42', '2016-03-21 01:40:42', '--- 
+- !str:CSV::Cell FERRY CORSTEN
+')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("updated_at", "created_at", "name") VALUES('2016-03-21 01:40:42', '2016-03-21 01:40:42', '--- 
+- !str:CSV::Cell THOMAS GOLD
+')[0m
+  [4;36;1mDj Create (0.2ms)[0m   [0;1mINSERT INTO "djs" ("updated_at", "created_at", "name") VALUES('2016-03-21 01:40:42', '2016-03-21 01:40:42', '--- 
+- !str:CSV::Cell MARCO CAROLA
+')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("updated_at", "created_at", "name") VALUES('2016-03-21 01:40:42', '2016-03-21 01:40:42', '--- 
+- !str:CSV::Cell BENNY BENASSI
+')[0m
+  [4;36;1mDj Create (0.3ms)[0m   [0;1mINSERT INTO "djs" ("updated_at", "created_at", "name") VALUES('2016-03-21 01:40:42', '2016-03-21 01:40:42', '--- 
+- !str:CSV::Cell JAY HARDWAY
+')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("updated_at", "created_at", "name") VALUES('2016-03-21 01:40:42', '2016-03-21 01:40:42', '--- 
+- !str:CSV::Cell DUBFIRE
+')[0m
+  [4;36;1mDj Create (0.6ms)[0m   [0;1mINSERT INTO "djs" ("updated_at", "created_at", "name") VALUES('2016-03-21 01:40:42', '2016-03-21 01:40:42', '--- 
+- !str:CSV::Cell MOTI
+')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("updated_at", "created_at", "name") VALUES('2016-03-21 01:40:42', '2016-03-21 01:40:42', '--- 
+- !str:CSV::Cell TJR
+')[0m
+  [4;36;1mDj Create (0.3ms)[0m   [0;1mINSERT INTO "djs" ("updated_at", "created_at", "name") VALUES('2016-03-21 01:40:42', '2016-03-21 01:40:42', '--- 
+- !str:CSV::Cell LOCO DICE
+')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("updated_at", "created_at", "name") VALUES('2016-03-21 01:40:42', '2016-03-21 01:40:42', '--- 
+- !str:CSV::Cell ADVENTURE CLUB
+')[0m
+  [4;36;1mDj Create (0.3ms)[0m   [0;1mINSERT INTO "djs" ("updated_at", "created_at", "name") VALUES('2016-03-21 01:40:42', '2016-03-21 01:40:42', '--- 
+- !str:CSV::Cell DZEKO & TORRES
+')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("updated_at", "created_at", "name") VALUES('2016-03-21 01:40:42', '2016-03-21 01:40:42', '--- 
+- !str:CSV::Cell GARETH EMERY
+')[0m
+  [4;36;1mDj Create (0.3ms)[0m   [0;1mINSERT INTO "djs" ("updated_at", "created_at", "name") VALUES('2016-03-21 01:40:42', '2016-03-21 01:40:42', '--- 
+- !str:CSV::Cell DIRTY SOUTH
+')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("updated_at", "created_at", "name") VALUES('2016-03-21 01:40:42', '2016-03-21 01:40:42', '--- 
+- !str:CSV::Cell NYK
+')[0m
+  [4;36;1mDj Create (0.3ms)[0m   [0;1mINSERT INTO "djs" ("updated_at", "created_at", "name") VALUES('2016-03-21 01:40:42', '2016-03-21 01:40:42', '--- 
+- !str:CSV::Cell FTAMPA
+')[0m
+  [4;35;1mDj Create (0.2ms)[0m   [0mINSERT INTO "djs" ("updated_at", "created_at", "name") VALUES('2016-03-21 01:40:42', '2016-03-21 01:40:42', '--- 
+- !str:CSV::Cell HEADHUNTERZ
+')[0m
+  [4;36;1mDj Create (0.3ms)[0m   [0;1mINSERT INTO "djs" ("updated_at", "created_at", "name") VALUES('2016-03-21 01:40:42', '2016-03-21 01:40:42', '--- 
+- !str:CSV::Cell VICETONE
+')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("updated_at", "created_at", "name") VALUES('2016-03-21 01:40:42', '2016-03-21 01:40:42', '--- 
+- !str:CSV::Cell KILL THE NOISE
+')[0m
+  [4;36;1mDj Create (0.3ms)[0m   [0;1mINSERT INTO "djs" ("updated_at", "created_at", "name") VALUES('2016-03-21 01:40:42', '2016-03-21 01:40:42', '--- 
+- !str:CSV::Cell JOHN DIGWEED
+')[0m
+  [4;35;1mDj Create (0.4ms)[0m   [0mINSERT INTO "djs" ("updated_at", "created_at", "name") VALUES('2016-03-21 01:40:42', '2016-03-21 01:40:42', '--- 
+- !str:CSV::Cell UMEK
+')[0m
+  [4;36;1mDj Create (0.4ms)[0m   [0;1mINSERT INTO "djs" ("updated_at", "created_at", "name") VALUES('2016-03-21 01:40:42', '2016-03-21 01:40:42', '--- 
+- !str:CSV::Cell MOGUAI
+')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("updated_at", "created_at", "name") VALUES('2016-03-21 01:40:42', '2016-03-21 01:40:42', '--- 
+- !str:CSV::Cell ANDREW RAYEL
+')[0m
+  [4;36;1mDj Create (0.8ms)[0m   [0;1mINSERT INTO "djs" ("updated_at", "created_at", "name") VALUES('2016-03-21 01:40:42', '2016-03-21 01:40:42', '--- 
+- !str:CSV::Cell REDFOO
+')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("updated_at", "created_at", "name") VALUES('2016-03-21 01:40:42', '2016-03-21 01:40:42', '--- 
+- !str:CSV::Cell JAUZ
+')[0m
+  [4;36;1mDj Create (0.4ms)[0m   [0;1mINSERT INTO "djs" ("updated_at", "created_at", "name") VALUES('2016-03-21 01:40:42', '2016-03-21 01:40:42', '--- 
+- !str:CSV::Cell JAMIE JONES
+')[0m
+  [4;35;1mDj Create (0.4ms)[0m   [0mINSERT INTO "djs" ("updated_at", "created_at", "name") VALUES('2016-03-21 01:40:42', '2016-03-21 01:40:42', '--- 
+- !str:CSV::Cell SHADOW
+')[0m
+  [4;36;1mDj Create (0.4ms)[0m   [0;1mINSERT INTO "djs" ("updated_at", "created_at", "name") VALUES('2016-03-21 01:40:42', '2016-03-21 01:40:42', '--- 
+- !str:CSV::Cell ZOMBOY
+')[0m
+  [4;35;1mDj Create (0.4ms)[0m   [0mINSERT INTO "djs" ("updated_at", "created_at", "name") VALUES('2016-03-21 01:40:42', '2016-03-21 01:40:42', '--- 
+- !str:CSV::Cell MACEO PLEX
+')[0m
+
+
+Processing DjsController#index (for 71.53.168.252 at 2016-03-21 01:40:55) [GET]
+  [4;36;1mDj Load (1.8ms)[0m   [0;1mSELECT * FROM "djs" [0m
+Rendering template within layouts/djs
+Rendering djs/index
+Completed in 183ms (View: 174, DB: 2) | 200 OK [https://the-dj-list-dev-test-nealhdotdev.c9users.io/djs]
+
+
+Processing DjsController#destroy (for 71.53.168.252 at 2016-03-21 01:41:11) [DELETE]
+  Parameters: {"authenticity_token"=>"h89mPMNHAEWaGCPd780uUr5FPzt0f/BaxDc/FkwqERo=", "id"=>"1"}
+  [4;35;1mDj Load (0.2ms)[0m   [0mSELECT * FROM "djs" WHERE ("djs"."id" = 1) [0m
+  [4;36;1mDj Destroy (0.3ms)[0m   [0;1mDELETE FROM "djs" WHERE "id" = 1[0m
+Redirected to https://the-dj-list-dev-test-nealhdotdev.c9users.io/djs
+Completed in 16ms (DB: 0) | 302 Found [https://the-dj-list-dev-test-nealhdotdev.c9users.io/djs/1]
+
+
+Processing DjsController#index (for 71.53.168.252 at 2016-03-21 01:41:11) [GET]
+  [4;35;1mDj Load (1.4ms)[0m   [0mSELECT * FROM "djs" [0m
+Rendering template within layouts/djs
+Rendering djs/index
+Completed in 164ms (View: 158, DB: 1) | 200 OK [https://the-dj-list-dev-test-nealhdotdev.c9users.io/djs]
+  [4;36;1mDj Load (1.4ms)[0m   [0;1mSELECT * FROM "djs" [0m
+  [4;35;1mDj Destroy (0.4ms)[0m   [0mDELETE FROM "djs" WHERE "id" = 2[0m
+  [4;36;1mDj Destroy (0.3ms)[0m   [0;1mDELETE FROM "djs" WHERE "id" = 3[0m
+  [4;35;1mDj Destroy (0.4ms)[0m   [0mDELETE FROM "djs" WHERE "id" = 4[0m
+  [4;36;1mDj Destroy (0.3ms)[0m   [0;1mDELETE FROM "djs" WHERE "id" = 5[0m
+  [4;35;1mDj Destroy (0.2ms)[0m   [0mDELETE FROM "djs" WHERE "id" = 6[0m
+  [4;36;1mDj Destroy (0.2ms)[0m   [0;1mDELETE FROM "djs" WHERE "id" = 7[0m
+  [4;35;1mDj Destroy (0.3ms)[0m   [0mDELETE FROM "djs" WHERE "id" = 8[0m
+  [4;36;1mDj Destroy (0.4ms)[0m   [0;1mDELETE FROM "djs" WHERE "id" = 9[0m
+  [4;35;1mDj Destroy (0.2ms)[0m   [0mDELETE FROM "djs" WHERE "id" = 10[0m
+  [4;36;1mDj Destroy (0.2ms)[0m   [0;1mDELETE FROM "djs" WHERE "id" = 11[0m
+  [4;35;1mDj Destroy (0.3ms)[0m   [0mDELETE FROM "djs" WHERE "id" = 12[0m
+  [4;36;1mDj Destroy (0.2ms)[0m   [0;1mDELETE FROM "djs" WHERE "id" = 13[0m
+  [4;35;1mDj Destroy (0.3ms)[0m   [0mDELETE FROM "djs" WHERE "id" = 14[0m
+  [4;36;1mDj Destroy (0.2ms)[0m   [0;1mDELETE FROM "djs" WHERE "id" = 15[0m
+  [4;35;1mDj Destroy (0.2ms)[0m   [0mDELETE FROM "djs" WHERE "id" = 16[0m
+  [4;36;1mDj Destroy (0.2ms)[0m   [0;1mDELETE FROM "djs" WHERE "id" = 17[0m
+  [4;35;1mDj Destroy (0.2ms)[0m   [0mDELETE FROM "djs" WHERE "id" = 18[0m
+  [4;36;1mDj Destroy (0.3ms)[0m   [0;1mDELETE FROM "djs" WHERE "id" = 19[0m
+  [4;35;1mDj Destroy (0.2ms)[0m   [0mDELETE FROM "djs" WHERE "id" = 20[0m
+  [4;36;1mDj Destroy (0.3ms)[0m   [0;1mDELETE FROM "djs" WHERE "id" = 21[0m
+  [4;35;1mDj Destroy (0.2ms)[0m   [0mDELETE FROM "djs" WHERE "id" = 22[0m
+  [4;36;1mDj Destroy (0.2ms)[0m   [0;1mDELETE FROM "djs" WHERE "id" = 23[0m
+  [4;35;1mDj Destroy (0.4ms)[0m   [0mDELETE FROM "djs" WHERE "id" = 24[0m
+  [4;36;1mDj Destroy (0.3ms)[0m   [0;1mDELETE FROM "djs" WHERE "id" = 25[0m
+  [4;35;1mDj Destroy (0.3ms)[0m   [0mDELETE FROM "djs" WHERE "id" = 26[0m
+  [4;36;1mDj Destroy (0.2ms)[0m   [0;1mDELETE FROM "djs" WHERE "id" = 27[0m
+  [4;35;1mDj Destroy (0.2ms)[0m   [0mDELETE FROM "djs" WHERE "id" = 28[0m
+  [4;36;1mDj Destroy (0.3ms)[0m   [0;1mDELETE FROM "djs" WHERE "id" = 29[0m
+  [4;35;1mDj Destroy (0.2ms)[0m   [0mDELETE FROM "djs" WHERE "id" = 30[0m
+  [4;36;1mDj Destroy (0.4ms)[0m   [0;1mDELETE FROM "djs" WHERE "id" = 31[0m
+  [4;35;1mDj Destroy (0.4ms)[0m   [0mDELETE FROM "djs" WHERE "id" = 32[0m
+  [4;36;1mDj Destroy (0.2ms)[0m   [0;1mDELETE FROM "djs" WHERE "id" = 33[0m
+  [4;35;1mDj Destroy (0.2ms)[0m   [0mDELETE FROM "djs" WHERE "id" = 34[0m
+  [4;36;1mDj Destroy (0.2ms)[0m   [0;1mDELETE FROM "djs" WHERE "id" = 35[0m
+  [4;35;1mDj Destroy (0.2ms)[0m   [0mDELETE FROM "djs" WHERE "id" = 36[0m
+  [4;36;1mDj Destroy (0.3ms)[0m   [0;1mDELETE FROM "djs" WHERE "id" = 37[0m
+  [4;35;1mDj Destroy (0.3ms)[0m   [0mDELETE FROM "djs" WHERE "id" = 38[0m
+  [4;36;1mDj Destroy (0.2ms)[0m   [0;1mDELETE FROM "djs" WHERE "id" = 39[0m
+  [4;35;1mDj Destroy (0.2ms)[0m   [0mDELETE FROM "djs" WHERE "id" = 40[0m
+  [4;36;1mDj Destroy (0.2ms)[0m   [0;1mDELETE FROM "djs" WHERE "id" = 41[0m
+  [4;35;1mDj Destroy (0.2ms)[0m   [0mDELETE FROM "djs" WHERE "id" = 42[0m
+  [4;36;1mDj Destroy (0.2ms)[0m   [0;1mDELETE FROM "djs" WHERE "id" = 43[0m
+  [4;35;1mDj Destroy (0.3ms)[0m   [0mDELETE FROM "djs" WHERE "id" = 44[0m
+  [4;36;1mDj Destroy (0.4ms)[0m   [0;1mDELETE FROM "djs" WHERE "id" = 45[0m
+  [4;35;1mDj Destroy (0.2ms)[0m   [0mDELETE FROM "djs" WHERE "id" = 46[0m
+  [4;36;1mDj Destroy (0.2ms)[0m   [0;1mDELETE FROM "djs" WHERE "id" = 47[0m
+  [4;35;1mDj Destroy (0.2ms)[0m   [0mDELETE FROM "djs" WHERE "id" = 48[0m
+  [4;36;1mDj Destroy (0.3ms)[0m   [0;1mDELETE FROM "djs" WHERE "id" = 49[0m
+  [4;35;1mDj Destroy (0.3ms)[0m   [0mDELETE FROM "djs" WHERE "id" = 50[0m
+  [4;36;1mDj Destroy (0.4ms)[0m   [0;1mDELETE FROM "djs" WHERE "id" = 51[0m
+  [4;35;1mDj Destroy (0.4ms)[0m   [0mDELETE FROM "djs" WHERE "id" = 52[0m
+  [4;36;1mDj Destroy (0.3ms)[0m   [0;1mDELETE FROM "djs" WHERE "id" = 53[0m
+  [4;35;1mDj Destroy (0.2ms)[0m   [0mDELETE FROM "djs" WHERE "id" = 54[0m
+  [4;36;1mDj Destroy (0.3ms)[0m   [0;1mDELETE FROM "djs" WHERE "id" = 55[0m
+  [4;35;1mDj Destroy (0.2ms)[0m   [0mDELETE FROM "djs" WHERE "id" = 56[0m
+  [4;36;1mDj Destroy (0.3ms)[0m   [0;1mDELETE FROM "djs" WHERE "id" = 57[0m
+  [4;35;1mDj Destroy (0.3ms)[0m   [0mDELETE FROM "djs" WHERE "id" = 58[0m
+  [4;36;1mDj Destroy (0.2ms)[0m   [0;1mDELETE FROM "djs" WHERE "id" = 59[0m
+  [4;35;1mDj Destroy (0.2ms)[0m   [0mDELETE FROM "djs" WHERE "id" = 60[0m
+  [4;36;1mDj Destroy (0.2ms)[0m   [0;1mDELETE FROM "djs" WHERE "id" = 61[0m
+  [4;35;1mDj Destroy (0.2ms)[0m   [0mDELETE FROM "djs" WHERE "id" = 62[0m
+  [4;36;1mDj Destroy (0.5ms)[0m   [0;1mDELETE FROM "djs" WHERE "id" = 63[0m
+  [4;35;1mDj Destroy (0.2ms)[0m   [0mDELETE FROM "djs" WHERE "id" = 64[0m
+  [4;36;1mDj Destroy (0.3ms)[0m   [0;1mDELETE FROM "djs" WHERE "id" = 65[0m
+  [4;35;1mDj Destroy (0.2ms)[0m   [0mDELETE FROM "djs" WHERE "id" = 66[0m
+  [4;36;1mDj Destroy (0.2ms)[0m   [0;1mDELETE FROM "djs" WHERE "id" = 67[0m
+  [4;35;1mDj Destroy (0.3ms)[0m   [0mDELETE FROM "djs" WHERE "id" = 68[0m
+  [4;36;1mDj Destroy (0.3ms)[0m   [0;1mDELETE FROM "djs" WHERE "id" = 69[0m
+  [4;35;1mDj Destroy (0.3ms)[0m   [0mDELETE FROM "djs" WHERE "id" = 70[0m
+  [4;36;1mDj Destroy (0.3ms)[0m   [0;1mDELETE FROM "djs" WHERE "id" = 71[0m
+  [4;35;1mDj Destroy (0.2ms)[0m   [0mDELETE FROM "djs" WHERE "id" = 72[0m
+  [4;36;1mDj Destroy (0.2ms)[0m   [0;1mDELETE FROM "djs" WHERE "id" = 73[0m
+  [4;35;1mDj Destroy (0.2ms)[0m   [0mDELETE FROM "djs" WHERE "id" = 74[0m
+  [4;36;1mDj Destroy (0.4ms)[0m   [0;1mDELETE FROM "djs" WHERE "id" = 75[0m
+  [4;35;1mDj Destroy (0.2ms)[0m   [0mDELETE FROM "djs" WHERE "id" = 76[0m
+  [4;36;1mDj Destroy (0.3ms)[0m   [0;1mDELETE FROM "djs" WHERE "id" = 77[0m
+  [4;35;1mDj Destroy (0.3ms)[0m   [0mDELETE FROM "djs" WHERE "id" = 78[0m
+  [4;36;1mDj Destroy (0.2ms)[0m   [0;1mDELETE FROM "djs" WHERE "id" = 79[0m
+  [4;35;1mDj Destroy (0.2ms)[0m   [0mDELETE FROM "djs" WHERE "id" = 80[0m
+  [4;36;1mDj Destroy (0.3ms)[0m   [0;1mDELETE FROM "djs" WHERE "id" = 81[0m
+  [4;35;1mDj Destroy (0.3ms)[0m   [0mDELETE FROM "djs" WHERE "id" = 82[0m
+  [4;36;1mDj Destroy (0.2ms)[0m   [0;1mDELETE FROM "djs" WHERE "id" = 83[0m
+  [4;35;1mDj Destroy (0.2ms)[0m   [0mDELETE FROM "djs" WHERE "id" = 84[0m
+  [4;36;1mDj Destroy (0.3ms)[0m   [0;1mDELETE FROM "djs" WHERE "id" = 85[0m
+  [4;35;1mDj Destroy (0.2ms)[0m   [0mDELETE FROM "djs" WHERE "id" = 86[0m
+  [4;36;1mDj Destroy (0.4ms)[0m   [0;1mDELETE FROM "djs" WHERE "id" = 87[0m
+  [4;35;1mDj Destroy (0.2ms)[0m   [0mDELETE FROM "djs" WHERE "id" = 88[0m
+  [4;36;1mDj Destroy (0.3ms)[0m   [0;1mDELETE FROM "djs" WHERE "id" = 89[0m
+  [4;35;1mDj Destroy (0.3ms)[0m   [0mDELETE FROM "djs" WHERE "id" = 90[0m
+  [4;36;1mDj Destroy (0.2ms)[0m   [0;1mDELETE FROM "djs" WHERE "id" = 91[0m
+  [4;35;1mDj Destroy (0.2ms)[0m   [0mDELETE FROM "djs" WHERE "id" = 92[0m
+  [4;36;1mDj Destroy (0.2ms)[0m   [0;1mDELETE FROM "djs" WHERE "id" = 93[0m
+  [4;35;1mDj Destroy (0.3ms)[0m   [0mDELETE FROM "djs" WHERE "id" = 94[0m
+  [4;36;1mDj Destroy (0.4ms)[0m   [0;1mDELETE FROM "djs" WHERE "id" = 95[0m
+  [4;35;1mDj Destroy (0.2ms)[0m   [0mDELETE FROM "djs" WHERE "id" = 96[0m
+  [4;36;1mDj Destroy (0.2ms)[0m   [0;1mDELETE FROM "djs" WHERE "id" = 97[0m
+  [4;35;1mDj Destroy (0.2ms)[0m   [0mDELETE FROM "djs" WHERE "id" = 98[0m
+  [4;36;1mDj Destroy (0.2ms)[0m   [0;1mDELETE FROM "djs" WHERE "id" = 99[0m
+  [4;35;1mDj Destroy (0.2ms)[0m   [0mDELETE FROM "djs" WHERE "id" = 100[0m
+  [4;36;1mDj Destroy (0.2ms)[0m   [0;1mDELETE FROM "djs" WHERE "id" = 101[0m
+  [4;35;1mDj Load (0.2ms)[0m   [0mSELECT * FROM "djs" [0m
+  [4;36;1mDj Create (0.3ms)[0m   [0;1mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES(1413119839, '2016-03-21 01:44:13', '2016-03-21 01:44:13')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES(821549565, '2016-03-21 01:44:13', '2016-03-21 01:44:13')[0m
+  [4;36;1mDj Create (0.3ms)[0m   [0;1mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES(-1406245626, '2016-03-21 01:44:13', '2016-03-21 01:44:13')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES(-1491566166, '2016-03-21 01:44:13', '2016-03-21 01:44:13')[0m
+  [4;36;1mDj Create (0.3ms)[0m   [0;1mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES(-242210116, '2016-03-21 01:44:13', '2016-03-21 01:44:13')[0m
+  [4;35;1mDj Create (0.4ms)[0m   [0mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES(895829117, '2016-03-21 01:44:13', '2016-03-21 01:44:13')[0m
+  [4;36;1mDj Create (0.7ms)[0m   [0;1mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES(1659281929, '2016-03-21 01:44:13', '2016-03-21 01:44:13')[0m
+  [4;35;1mDj Create (0.2ms)[0m   [0mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES(-1219248537, '2016-03-21 01:44:13', '2016-03-21 01:44:13')[0m
+  [4;36;1mDj Create (0.3ms)[0m   [0;1mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES(1727101533, '2016-03-21 01:44:13', '2016-03-21 01:44:13')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES(-1472894485, '2016-03-21 01:44:13', '2016-03-21 01:44:13')[0m
+  [4;36;1mDj Create (0.5ms)[0m   [0;1mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES(-506490765, '2016-03-21 01:44:13', '2016-03-21 01:44:13')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES(-2011450648, '2016-03-21 01:44:13', '2016-03-21 01:44:13')[0m
+  [4;36;1mDj Create (0.4ms)[0m   [0;1mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES(-1458683750, '2016-03-21 01:44:13', '2016-03-21 01:44:13')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES(-938121745, '2016-03-21 01:44:13', '2016-03-21 01:44:13')[0m
+  [4;36;1mDj Create (0.3ms)[0m   [0;1mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES(792746577, '2016-03-21 01:44:13', '2016-03-21 01:44:13')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES(1592811220, '2016-03-21 01:44:13', '2016-03-21 01:44:13')[0m
+  [4;36;1mDj Create (0.3ms)[0m   [0;1mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES(-2147482339, '2016-03-21 01:44:13', '2016-03-21 01:44:13')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES(-1048689509, '2016-03-21 01:44:13', '2016-03-21 01:44:13')[0m
+  [4;36;1mDj Create (0.3ms)[0m   [0;1mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES(-902232840, '2016-03-21 01:44:13', '2016-03-21 01:44:13')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES(1208405561, '2016-03-21 01:44:13', '2016-03-21 01:44:13')[0m
+  [4;36;1mDj Create (0.3ms)[0m   [0;1mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES(423514845, '2016-03-21 01:44:13', '2016-03-21 01:44:13')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES(2097447767, '2016-03-21 01:44:13', '2016-03-21 01:44:13')[0m
+  [4;36;1mDj Create (0.2ms)[0m   [0;1mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES(1891223469, '2016-03-21 01:44:13', '2016-03-21 01:44:13')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES(-2080782211, '2016-03-21 01:44:13', '2016-03-21 01:44:13')[0m
+  [4;36;1mDj Create (0.3ms)[0m   [0;1mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES(541929106, '2016-03-21 01:44:13', '2016-03-21 01:44:13')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES(-135756824, '2016-03-21 01:44:13', '2016-03-21 01:44:13')[0m
+  [4;36;1mDj Create (0.3ms)[0m   [0;1mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES(-799286051, '2016-03-21 01:44:13', '2016-03-21 01:44:13')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES(257903337, '2016-03-21 01:44:13', '2016-03-21 01:44:13')[0m
+  [4;36;1mDj Create (0.3ms)[0m   [0;1mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES(157854099, '2016-03-21 01:44:13', '2016-03-21 01:44:13')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES(854598166, '2016-03-21 01:44:13', '2016-03-21 01:44:13')[0m
+  [4;36;1mDj Create (0.2ms)[0m   [0;1mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES(-200649592, '2016-03-21 01:44:13', '2016-03-21 01:44:13')[0m
+  [4;35;1mDj Create (0.2ms)[0m   [0mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES(1301574772, '2016-03-21 01:44:13', '2016-03-21 01:44:13')[0m
+  [4;36;1mDj Create (0.3ms)[0m   [0;1mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES(-1401105683, '2016-03-21 01:44:13', '2016-03-21 01:44:13')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES(-1073099323, '2016-03-21 01:44:13', '2016-03-21 01:44:13')[0m
+  [4;36;1mDj Create (0.3ms)[0m   [0;1mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES(-126013010, '2016-03-21 01:44:13', '2016-03-21 01:44:13')[0m
+  [4;35;1mDj Create (0.5ms)[0m   [0mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES(217675487, '2016-03-21 01:44:13', '2016-03-21 01:44:13')[0m
+  [4;36;1mDj Create (0.3ms)[0m   [0;1mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES(-359632317, '2016-03-21 01:44:13', '2016-03-21 01:44:13')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES(-1865598012, '2016-03-21 01:44:13', '2016-03-21 01:44:13')[0m
+  [4;36;1mDj Create (0.2ms)[0m   [0;1mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES(-910103570, '2016-03-21 01:44:13', '2016-03-21 01:44:13')[0m
+  [4;35;1mDj Create (0.2ms)[0m   [0mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES(-829108422, '2016-03-21 01:44:13', '2016-03-21 01:44:13')[0m
+  [4;36;1mDj Create (0.3ms)[0m   [0;1mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES(739722184, '2016-03-21 01:44:13', '2016-03-21 01:44:13')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES(1248710531, '2016-03-21 01:44:13', '2016-03-21 01:44:13')[0m
+  [4;36;1mDj Create (0.3ms)[0m   [0;1mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES(-917498459, '2016-03-21 01:44:13', '2016-03-21 01:44:13')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES(992984223, '2016-03-21 01:44:13', '2016-03-21 01:44:13')[0m
+  [4;36;1mDj Create (0.2ms)[0m   [0;1mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES(599938210, '2016-03-21 01:44:13', '2016-03-21 01:44:13')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES(-1282822112, '2016-03-21 01:44:13', '2016-03-21 01:44:13')[0m
+  [4;36;1mDj Create (0.3ms)[0m   [0;1mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES(1569769218, '2016-03-21 01:44:13', '2016-03-21 01:44:13')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES(-1766572029, '2016-03-21 01:44:13', '2016-03-21 01:44:13')[0m
+  [4;36;1mDj Create (0.3ms)[0m   [0;1mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES(2002455736, '2016-03-21 01:44:13', '2016-03-21 01:44:13')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES(1970419149, '2016-03-21 01:44:13', '2016-03-21 01:44:13')[0m
+  [4;36;1mDj Create (0.3ms)[0m   [0;1mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES(-362019764, '2016-03-21 01:44:13', '2016-03-21 01:44:13')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES(-1387365873, '2016-03-21 01:44:13', '2016-03-21 01:44:13')[0m
+  [4;36;1mDj Create (0.3ms)[0m   [0;1mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES(1393187384, '2016-03-21 01:44:13', '2016-03-21 01:44:13')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES(1224547934, '2016-03-21 01:44:13', '2016-03-21 01:44:13')[0m
+  [4;36;1mDj Create (0.2ms)[0m   [0;1mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES(-2007596127, '2016-03-21 01:44:13', '2016-03-21 01:44:13')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES(-276109665, '2016-03-21 01:44:13', '2016-03-21 01:44:13')[0m
+  [4;36;1mDj Create (0.3ms)[0m   [0;1mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES(1647270092, '2016-03-21 01:44:13', '2016-03-21 01:44:13')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES(1321501947, '2016-03-21 01:44:13', '2016-03-21 01:44:13')[0m
+  [4;36;1mDj Create (0.3ms)[0m   [0;1mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES(2036772669, '2016-03-21 01:44:13', '2016-03-21 01:44:13')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES(-537600598, '2016-03-21 01:44:13', '2016-03-21 01:44:13')[0m
+  [4;36;1mDj Create (0.3ms)[0m   [0;1mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES(1065696428, '2016-03-21 01:44:13', '2016-03-21 01:44:13')[0m
+  [4;35;1mDj Create (0.4ms)[0m   [0mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES(1251014870, '2016-03-21 01:44:13', '2016-03-21 01:44:13')[0m
+  [4;36;1mDj Create (0.3ms)[0m   [0;1mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES(-439234655, '2016-03-21 01:44:13', '2016-03-21 01:44:13')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES(2017255047, '2016-03-21 01:44:13', '2016-03-21 01:44:13')[0m
+  [4;36;1mDj Create (0.3ms)[0m   [0;1mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES(1848209564, '2016-03-21 01:44:13', '2016-03-21 01:44:13')[0m
+  [4;35;1mDj Create (0.5ms)[0m   [0mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES(195883920, '2016-03-21 01:44:13', '2016-03-21 01:44:13')[0m
+  [4;36;1mDj Create (0.3ms)[0m   [0;1mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES(-964333800, '2016-03-21 01:44:13', '2016-03-21 01:44:13')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES(784213333, '2016-03-21 01:44:13', '2016-03-21 01:44:13')[0m
+  [4;36;1mDj Create (0.2ms)[0m   [0;1mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES(-802621230, '2016-03-21 01:44:13', '2016-03-21 01:44:13')[0m
+  [4;35;1mDj Create (0.2ms)[0m   [0mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES(870319445, '2016-03-21 01:44:13', '2016-03-21 01:44:13')[0m
+  [4;36;1mDj Create (0.2ms)[0m   [0;1mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES(-1001960782, '2016-03-21 01:44:13', '2016-03-21 01:44:13')[0m
+  [4;35;1mDj Create (0.4ms)[0m   [0mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES(311867585, '2016-03-21 01:44:13', '2016-03-21 01:44:13')[0m
+  [4;36;1mDj Create (0.3ms)[0m   [0;1mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES(237485247, '2016-03-21 01:44:13', '2016-03-21 01:44:13')[0m
+  [4;35;1mDj Create (0.4ms)[0m   [0mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES(1027658264, '2016-03-21 01:44:13', '2016-03-21 01:44:13')[0m
+  [4;36;1mDj Create (0.3ms)[0m   [0;1mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES(-1251629524, '2016-03-21 01:44:13', '2016-03-21 01:44:13')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES(-785467592, '2016-03-21 01:44:13', '2016-03-21 01:44:13')[0m
+  [4;36;1mDj Create (0.3ms)[0m   [0;1mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES(218016136, '2016-03-21 01:44:13', '2016-03-21 01:44:13')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES(-1180705405, '2016-03-21 01:44:13', '2016-03-21 01:44:13')[0m
+  [4;36;1mDj Create (0.3ms)[0m   [0;1mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES(-2062606840, '2016-03-21 01:44:13', '2016-03-21 01:44:13')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES(192896656, '2016-03-21 01:44:13', '2016-03-21 01:44:13')[0m
+  [4;36;1mDj Create (0.3ms)[0m   [0;1mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES(-731903142, '2016-03-21 01:44:13', '2016-03-21 01:44:13')[0m
+  [4;35;1mDj Create (0.2ms)[0m   [0mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES(560057030, '2016-03-21 01:44:13', '2016-03-21 01:44:13')[0m
+  [4;36;1mDj Create (0.4ms)[0m   [0;1mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES(-191517778, '2016-03-21 01:44:13', '2016-03-21 01:44:13')[0m
+  [4;35;1mDj Create (0.2ms)[0m   [0mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES(-416197831, '2016-03-21 01:44:13', '2016-03-21 01:44:13')[0m
+  [4;36;1mDj Create (0.4ms)[0m   [0;1mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES(1007792560, '2016-03-21 01:44:13', '2016-03-21 01:44:13')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES(1168012410, '2016-03-21 01:44:13', '2016-03-21 01:44:13')[0m
+  [4;36;1mDj Create (0.3ms)[0m   [0;1mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES(-424351441, '2016-03-21 01:44:14', '2016-03-21 01:44:14')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES(1610041623, '2016-03-21 01:44:14', '2016-03-21 01:44:14')[0m
+  [4;36;1mDj Create (0.3ms)[0m   [0;1mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES(2044541440, '2016-03-21 01:44:14', '2016-03-21 01:44:14')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES(860122327, '2016-03-21 01:44:14', '2016-03-21 01:44:14')[0m
+  [4;36;1mDj Create (0.4ms)[0m   [0;1mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES(-233226337, '2016-03-21 01:44:14', '2016-03-21 01:44:14')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES(-1384406908, '2016-03-21 01:44:14', '2016-03-21 01:44:14')[0m
+  [4;36;1mDj Create (0.3ms)[0m   [0;1mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES(-99441755, '2016-03-21 01:44:14', '2016-03-21 01:44:14')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES(584701377, '2016-03-21 01:44:14', '2016-03-21 01:44:14')[0m
+  [4;36;1mDj Create (0.7ms)[0m   [0;1mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES(-1097005825, '2016-03-21 01:44:14', '2016-03-21 01:44:14')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES(-608522305, '2016-03-21 01:44:14', '2016-03-21 01:44:14')[0m
+  [4;36;1mDj Create (0.3ms)[0m   [0;1mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES(-1579159674, '2016-03-21 01:44:14', '2016-03-21 01:44:14')[0m
+  [4;35;1mDj Create (0.7ms)[0m   [0mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES(-1401312145, '2016-03-21 01:44:14', '2016-03-21 01:44:14')[0m
+  [4;36;1mDj Create (0.2ms)[0m   [0;1mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES(-1791354169, '2016-03-21 01:44:14', '2016-03-21 01:44:14')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES(-1074011039, '2016-03-21 01:44:14', '2016-03-21 01:44:14')[0m
+
+
+Processing DjsController#index (for 71.53.168.252 at 2016-03-21 01:44:24) [GET]
+  [4;36;1mDj Load (1.3ms)[0m   [0;1mSELECT * FROM "djs" [0m
+Rendering template within layouts/djs
+Rendering djs/index
+Completed in 203ms (View: 188, DB: 1) | 200 OK [https://the-dj-list-dev-test-nealhdotdev.c9users.io/djs]
+  [4;36;1mDj Load (3.8ms)[0m   [0;1mSELECT * FROM "djs" [0m
+  [4;35;1mDj Load (1.1ms)[0m   [0mSELECT * FROM "djs" [0m
+  [4;36;1mDj Destroy (0.4ms)[0m   [0;1mDELETE FROM "djs" WHERE "id" = 102[0m
+  [4;35;1mDj Destroy (0.2ms)[0m   [0mDELETE FROM "djs" WHERE "id" = 103[0m
+  [4;36;1mDj Destroy (0.2ms)[0m   [0;1mDELETE FROM "djs" WHERE "id" = 104[0m
+  [4;35;1mDj Destroy (0.2ms)[0m   [0mDELETE FROM "djs" WHERE "id" = 105[0m
+  [4;36;1mDj Destroy (0.2ms)[0m   [0;1mDELETE FROM "djs" WHERE "id" = 106[0m
+  [4;35;1mDj Destroy (0.2ms)[0m   [0mDELETE FROM "djs" WHERE "id" = 107[0m
+  [4;36;1mDj Destroy (0.2ms)[0m   [0;1mDELETE FROM "djs" WHERE "id" = 108[0m
+  [4;35;1mDj Destroy (0.2ms)[0m   [0mDELETE FROM "djs" WHERE "id" = 109[0m
+  [4;36;1mDj Destroy (0.2ms)[0m   [0;1mDELETE FROM "djs" WHERE "id" = 110[0m
+  [4;35;1mDj Destroy (0.2ms)[0m   [0mDELETE FROM "djs" WHERE "id" = 111[0m
+  [4;36;1mDj Destroy (0.2ms)[0m   [0;1mDELETE FROM "djs" WHERE "id" = 112[0m
+  [4;35;1mDj Destroy (0.3ms)[0m   [0mDELETE FROM "djs" WHERE "id" = 113[0m
+  [4;36;1mDj Destroy (0.2ms)[0m   [0;1mDELETE FROM "djs" WHERE "id" = 114[0m
+  [4;35;1mDj Destroy (0.3ms)[0m   [0mDELETE FROM "djs" WHERE "id" = 115[0m
+  [4;36;1mDj Destroy (0.2ms)[0m   [0;1mDELETE FROM "djs" WHERE "id" = 116[0m
+  [4;35;1mDj Destroy (0.2ms)[0m   [0mDELETE FROM "djs" WHERE "id" = 117[0m
+  [4;36;1mDj Destroy (0.2ms)[0m   [0;1mDELETE FROM "djs" WHERE "id" = 118[0m
+  [4;35;1mDj Destroy (0.2ms)[0m   [0mDELETE FROM "djs" WHERE "id" = 119[0m
+  [4;36;1mDj Destroy (0.2ms)[0m   [0;1mDELETE FROM "djs" WHERE "id" = 120[0m
+  [4;35;1mDj Destroy (0.2ms)[0m   [0mDELETE FROM "djs" WHERE "id" = 121[0m
+  [4;36;1mDj Destroy (0.2ms)[0m   [0;1mDELETE FROM "djs" WHERE "id" = 122[0m
+  [4;35;1mDj Destroy (0.3ms)[0m   [0mDELETE FROM "djs" WHERE "id" = 123[0m
+  [4;36;1mDj Destroy (0.2ms)[0m   [0;1mDELETE FROM "djs" WHERE "id" = 124[0m
+  [4;35;1mDj Destroy (0.3ms)[0m   [0mDELETE FROM "djs" WHERE "id" = 125[0m
+  [4;36;1mDj Destroy (0.2ms)[0m   [0;1mDELETE FROM "djs" WHERE "id" = 126[0m
+  [4;35;1mDj Destroy (0.3ms)[0m   [0mDELETE FROM "djs" WHERE "id" = 127[0m
+  [4;36;1mDj Destroy (0.2ms)[0m   [0;1mDELETE FROM "djs" WHERE "id" = 128[0m
+  [4;35;1mDj Destroy (0.3ms)[0m   [0mDELETE FROM "djs" WHERE "id" = 129[0m
+  [4;36;1mDj Destroy (0.2ms)[0m   [0;1mDELETE FROM "djs" WHERE "id" = 130[0m
+  [4;35;1mDj Destroy (0.9ms)[0m   [0mDELETE FROM "djs" WHERE "id" = 131[0m
+  [4;36;1mDj Destroy (0.2ms)[0m   [0;1mDELETE FROM "djs" WHERE "id" = 132[0m
+  [4;35;1mDj Destroy (0.4ms)[0m   [0mDELETE FROM "djs" WHERE "id" = 133[0m
+  [4;36;1mDj Destroy (0.6ms)[0m   [0;1mDELETE FROM "djs" WHERE "id" = 134[0m
+  [4;35;1mDj Destroy (0.3ms)[0m   [0mDELETE FROM "djs" WHERE "id" = 135[0m
+  [4;36;1mDj Destroy (0.4ms)[0m   [0;1mDELETE FROM "djs" WHERE "id" = 136[0m
+  [4;35;1mDj Destroy (0.3ms)[0m   [0mDELETE FROM "djs" WHERE "id" = 137[0m
+  [4;36;1mDj Destroy (0.3ms)[0m   [0;1mDELETE FROM "djs" WHERE "id" = 138[0m
+  [4;35;1mDj Destroy (0.3ms)[0m   [0mDELETE FROM "djs" WHERE "id" = 139[0m
+  [4;36;1mDj Destroy (0.3ms)[0m   [0;1mDELETE FROM "djs" WHERE "id" = 140[0m
+  [4;35;1mDj Destroy (0.3ms)[0m   [0mDELETE FROM "djs" WHERE "id" = 141[0m
+  [4;36;1mDj Destroy (0.3ms)[0m   [0;1mDELETE FROM "djs" WHERE "id" = 142[0m
+  [4;35;1mDj Destroy (0.3ms)[0m   [0mDELETE FROM "djs" WHERE "id" = 143[0m
+  [4;36;1mDj Destroy (0.3ms)[0m   [0;1mDELETE FROM "djs" WHERE "id" = 144[0m
+  [4;35;1mDj Destroy (0.3ms)[0m   [0mDELETE FROM "djs" WHERE "id" = 145[0m
+  [4;36;1mDj Destroy (0.2ms)[0m   [0;1mDELETE FROM "djs" WHERE "id" = 146[0m
+  [4;35;1mDj Destroy (0.3ms)[0m   [0mDELETE FROM "djs" WHERE "id" = 147[0m
+  [4;36;1mDj Destroy (0.3ms)[0m   [0;1mDELETE FROM "djs" WHERE "id" = 148[0m
+  [4;35;1mDj Destroy (0.3ms)[0m   [0mDELETE FROM "djs" WHERE "id" = 149[0m
+  [4;36;1mDj Destroy (0.3ms)[0m   [0;1mDELETE FROM "djs" WHERE "id" = 150[0m
+  [4;35;1mDj Destroy (0.3ms)[0m   [0mDELETE FROM "djs" WHERE "id" = 151[0m
+  [4;36;1mDj Destroy (0.3ms)[0m   [0;1mDELETE FROM "djs" WHERE "id" = 152[0m
+  [4;35;1mDj Destroy (0.3ms)[0m   [0mDELETE FROM "djs" WHERE "id" = 153[0m
+  [4;36;1mDj Destroy (0.2ms)[0m   [0;1mDELETE FROM "djs" WHERE "id" = 154[0m
+  [4;35;1mDj Destroy (0.2ms)[0m   [0mDELETE FROM "djs" WHERE "id" = 155[0m
+  [4;36;1mDj Destroy (0.2ms)[0m   [0;1mDELETE FROM "djs" WHERE "id" = 156[0m
+  [4;35;1mDj Destroy (0.2ms)[0m   [0mDELETE FROM "djs" WHERE "id" = 157[0m
+  [4;36;1mDj Destroy (0.2ms)[0m   [0;1mDELETE FROM "djs" WHERE "id" = 158[0m
+  [4;35;1mDj Destroy (0.3ms)[0m   [0mDELETE FROM "djs" WHERE "id" = 159[0m
+  [4;36;1mDj Destroy (0.4ms)[0m   [0;1mDELETE FROM "djs" WHERE "id" = 160[0m
+  [4;35;1mDj Destroy (0.4ms)[0m   [0mDELETE FROM "djs" WHERE "id" = 161[0m
+  [4;36;1mDj Destroy (0.2ms)[0m   [0;1mDELETE FROM "djs" WHERE "id" = 162[0m
+  [4;35;1mDj Destroy (0.3ms)[0m   [0mDELETE FROM "djs" WHERE "id" = 163[0m
+  [4;36;1mDj Destroy (0.3ms)[0m   [0;1mDELETE FROM "djs" WHERE "id" = 164[0m
+  [4;35;1mDj Destroy (0.2ms)[0m   [0mDELETE FROM "djs" WHERE "id" = 165[0m
+  [4;36;1mDj Destroy (0.2ms)[0m   [0;1mDELETE FROM "djs" WHERE "id" = 166[0m
+  [4;35;1mDj Destroy (0.2ms)[0m   [0mDELETE FROM "djs" WHERE "id" = 167[0m
+  [4;36;1mDj Destroy (0.3ms)[0m   [0;1mDELETE FROM "djs" WHERE "id" = 168[0m
+  [4;35;1mDj Destroy (0.4ms)[0m   [0mDELETE FROM "djs" WHERE "id" = 169[0m
+  [4;36;1mDj Destroy (0.2ms)[0m   [0;1mDELETE FROM "djs" WHERE "id" = 170[0m
+  [4;35;1mDj Destroy (0.2ms)[0m   [0mDELETE FROM "djs" WHERE "id" = 171[0m
+  [4;36;1mDj Destroy (0.3ms)[0m   [0;1mDELETE FROM "djs" WHERE "id" = 172[0m
+  [4;35;1mDj Destroy (0.2ms)[0m   [0mDELETE FROM "djs" WHERE "id" = 173[0m
+  [4;36;1mDj Destroy (0.4ms)[0m   [0;1mDELETE FROM "djs" WHERE "id" = 174[0m
+  [4;35;1mDj Destroy (0.2ms)[0m   [0mDELETE FROM "djs" WHERE "id" = 175[0m
+  [4;36;1mDj Destroy (0.2ms)[0m   [0;1mDELETE FROM "djs" WHERE "id" = 176[0m
+  [4;35;1mDj Destroy (0.3ms)[0m   [0mDELETE FROM "djs" WHERE "id" = 177[0m
+  [4;36;1mDj Destroy (0.2ms)[0m   [0;1mDELETE FROM "djs" WHERE "id" = 178[0m
+  [4;35;1mDj Destroy (0.3ms)[0m   [0mDELETE FROM "djs" WHERE "id" = 179[0m
+  [4;36;1mDj Destroy (0.7ms)[0m   [0;1mDELETE FROM "djs" WHERE "id" = 180[0m
+  [4;35;1mDj Destroy (0.4ms)[0m   [0mDELETE FROM "djs" WHERE "id" = 181[0m
+  [4;36;1mDj Destroy (0.2ms)[0m   [0;1mDELETE FROM "djs" WHERE "id" = 182[0m
+  [4;35;1mDj Destroy (0.2ms)[0m   [0mDELETE FROM "djs" WHERE "id" = 183[0m
+  [4;36;1mDj Destroy (0.4ms)[0m   [0;1mDELETE FROM "djs" WHERE "id" = 184[0m
+  [4;35;1mDj Destroy (0.2ms)[0m   [0mDELETE FROM "djs" WHERE "id" = 185[0m
+  [4;36;1mDj Destroy (0.3ms)[0m   [0;1mDELETE FROM "djs" WHERE "id" = 186[0m
+  [4;35;1mDj Destroy (0.2ms)[0m   [0mDELETE FROM "djs" WHERE "id" = 187[0m
+  [4;36;1mDj Destroy (0.4ms)[0m   [0;1mDELETE FROM "djs" WHERE "id" = 188[0m
+  [4;35;1mDj Destroy (0.2ms)[0m   [0mDELETE FROM "djs" WHERE "id" = 189[0m
+  [4;36;1mDj Destroy (0.2ms)[0m   [0;1mDELETE FROM "djs" WHERE "id" = 190[0m
+  [4;35;1mDj Destroy (0.2ms)[0m   [0mDELETE FROM "djs" WHERE "id" = 191[0m
+  [4;36;1mDj Destroy (0.3ms)[0m   [0;1mDELETE FROM "djs" WHERE "id" = 192[0m
+  [4;35;1mDj Destroy (0.2ms)[0m   [0mDELETE FROM "djs" WHERE "id" = 193[0m
+  [4;36;1mDj Destroy (0.2ms)[0m   [0;1mDELETE FROM "djs" WHERE "id" = 194[0m
+  [4;35;1mDj Destroy (0.2ms)[0m   [0mDELETE FROM "djs" WHERE "id" = 195[0m
+  [4;36;1mDj Destroy (0.2ms)[0m   [0;1mDELETE FROM "djs" WHERE "id" = 196[0m
+  [4;35;1mDj Destroy (0.2ms)[0m   [0mDELETE FROM "djs" WHERE "id" = 197[0m
+  [4;36;1mDj Destroy (0.2ms)[0m   [0;1mDELETE FROM "djs" WHERE "id" = 198[0m
+  [4;35;1mDj Destroy (0.2ms)[0m   [0mDELETE FROM "djs" WHERE "id" = 199[0m
+  [4;36;1mDj Destroy (0.3ms)[0m   [0;1mDELETE FROM "djs" WHERE "id" = 200[0m
+  [4;35;1mDj Destroy (0.2ms)[0m   [0mDELETE FROM "djs" WHERE "id" = 201[0m
+  [4;36;1mDj Load (0.3ms)[0m   [0;1mSELECT * FROM "djs" [0m
+  [4;36;1mDj Create (0.3ms)[0m   [0;1mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES('DAVID GUETTA', '2016-03-21 01:46:19', '2016-03-21 01:46:19')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES('HARDWELL', '2016-03-21 01:46:19', '2016-03-21 01:46:19')[0m
+  [4;36;1mDj Create (0.6ms)[0m   [0;1mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES('TIESTO', '2016-03-21 01:46:19', '2016-03-21 01:46:19')[0m
+  [4;35;1mDj Create (0.2ms)[0m   [0mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES('MARTIN GARRIX', '2016-03-21 01:46:19', '2016-03-21 01:46:19')[0m
+  [4;36;1mDj Create (0.2ms)[0m   [0;1mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES('AVICII', '2016-03-21 01:46:19', '2016-03-21 01:46:19')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES('AFROJACK', '2016-03-21 01:46:19', '2016-03-21 01:46:19')[0m
+  [4;36;1mDj Create (0.3ms)[0m   [0;1mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES('DIMITRI VEGAS & LIKE MIKE', '2016-03-21 01:46:19', '2016-03-21 01:46:19')[0m
+  [4;35;1mDj Create (0.4ms)[0m   [0mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES('SKRILLEX', '2016-03-21 01:46:19', '2016-03-21 01:46:19')[0m
+  [4;36;1mDj Create (0.4ms)[0m   [0;1mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES('ARMIN VAN BUUREN', '2016-03-21 01:46:19', '2016-03-21 01:46:19')[0m
+  [4;35;1mDj Create (0.4ms)[0m   [0mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES('CALVIN HARRIS', '2016-03-21 01:46:19', '2016-03-21 01:46:19')[0m
+  [4;36;1mDj Create (0.4ms)[0m   [0;1mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES('STEVE AOKI', '2016-03-21 01:46:19', '2016-03-21 01:46:19')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES('NICKY ROMERO', '2016-03-21 01:46:19', '2016-03-21 01:46:19')[0m
+  [4;36;1mDj Create (0.3ms)[0m   [0;1mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES('DEADMAU5', '2016-03-21 01:46:19', '2016-03-21 01:46:19')[0m
+  [4;35;1mDj Create (0.2ms)[0m   [0mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES('R3HAB', '2016-03-21 01:46:19', '2016-03-21 01:46:19')[0m
+  [4;36;1mDj Create (0.3ms)[0m   [0;1mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES('SWEDISH HOUSE MAFIA', '2016-03-21 01:46:19', '2016-03-21 01:46:19')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES('ZEDD', '2016-03-21 01:46:19', '2016-03-21 01:46:19')[0m
+  [4;36;1mDj Create (0.3ms)[0m   [0;1mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES('W&W', '2016-03-21 01:46:19', '2016-03-21 01:46:19')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES('DVBBS', '2016-03-21 01:46:19', '2016-03-21 01:46:19')[0m
+  [4;36;1mDj Create (0.3ms)[0m   [0;1mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES('DAFT PUNK', '2016-03-21 01:46:19', '2016-03-21 01:46:19')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES('ALESSO', '2016-03-21 01:46:19', '2016-03-21 01:46:19')[0m
+  [4;36;1mDj Create (0.3ms)[0m   [0;1mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES('SNAKE', '2016-03-21 01:46:19', '2016-03-21 01:46:19')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES('AXWELL', '2016-03-21 01:46:19', '2016-03-21 01:46:19')[0m
+  [4;36;1mDj Create (0.3ms)[0m   [0;1mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES('NERVO', '2016-03-21 01:46:19', '2016-03-21 01:46:19')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES('BLASTERJAXX', '2016-03-21 01:46:19', '2016-03-21 01:46:19')[0m
+  [4;36;1mDj Create (0.3ms)[0m   [0;1mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES('SHOWTEK', '2016-03-21 01:46:19', '2016-03-21 01:46:19')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES('FEDDE LE GRAND', '2016-03-21 01:46:19', '2016-03-21 01:46:19')[0m
+  [4;36;1mDj Create (0.4ms)[0m   [0;1mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES('DIPLO', '2016-03-21 01:46:19', '2016-03-21 01:46:19')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES('PAUL VAN DYK', '2016-03-21 01:46:19', '2016-03-21 01:46:19')[0m
+  [4;36;1mDj Create (0.3ms)[0m   [0;1mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES('BORGEOUS', '2016-03-21 01:46:19', '2016-03-21 01:46:19')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES('JUICY M', '2016-03-21 01:46:19', '2016-03-21 01:46:19')[0m
+  [4;36;1mDj Create (0.3ms)[0m   [0;1mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES('DASH BERLIN', '2016-03-21 01:46:19', '2016-03-21 01:46:19')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES('SANDER VAN DOORN', '2016-03-21 01:46:19', '2016-03-21 01:46:19')[0m
+  [4;36;1mDj Create (0.4ms)[0m   [0;1mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES('ABOVE & BEYOND', '2016-03-21 01:46:19', '2016-03-21 01:46:19')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES('BASSJACKERS', '2016-03-21 01:46:19', '2016-03-21 01:46:19')[0m
+  [4;36;1mDj Create (0.3ms)[0m   [0;1mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES('TOMMY TRASH', '2016-03-21 01:46:19', '2016-03-21 01:46:19')[0m
+  [4;35;1mDj Create (0.4ms)[0m   [0mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES('CARL COX', '2016-03-21 01:46:19', '2016-03-21 01:46:19')[0m
+  [4;36;1mDj Create (0.3ms)[0m   [0;1mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES('LAIDBACK LUKE', '2016-03-21 01:46:19', '2016-03-21 01:46:19')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES('BINGO PLAYERS', '2016-03-21 01:46:19', '2016-03-21 01:46:19')[0m
+  [4;36;1mDj Create (0.3ms)[0m   [0;1mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES('UMMET OZCAN', '2016-03-21 01:46:19', '2016-03-21 01:46:19')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES('DADA LIFE', '2016-03-21 01:46:19', '2016-03-21 01:46:19')[0m
+  [4;36;1mDj Create (0.4ms)[0m   [0;1mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES('DANNIC', '2016-03-21 01:46:19', '2016-03-21 01:46:19')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES('STEVE ANGELLO', '2016-03-21 01:46:19', '2016-03-21 01:46:19')[0m
+  [4;36;1mDj Create (0.3ms)[0m   [0;1mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES('KNIFE PARTY', '2016-03-21 01:46:19', '2016-03-21 01:46:19')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES('MAJOR LAZER', '2016-03-21 01:46:19', '2016-03-21 01:46:19')[0m
+  [4;36;1mDj Create (0.2ms)[0m   [0;1mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES('OLIVER HELDENS', '2016-03-21 01:46:19', '2016-03-21 01:46:19')[0m
+  [4;35;1mDj Create (0.2ms)[0m   [0mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES('KREWELLA', '2016-03-21 01:46:19', '2016-03-21 01:46:19')[0m
+  [4;36;1mDj Create (0.3ms)[0m   [0;1mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES('VINAI', '2016-03-21 01:46:19', '2016-03-21 01:46:19')[0m
+  [4;35;1mDj Create (0.2ms)[0m   [0mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES('DYRO', '2016-03-21 01:46:19', '2016-03-21 01:46:19')[0m
+  [4;36;1mDj Create (0.3ms)[0m   [0;1mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES('DON DIABLO', '2016-03-21 01:46:19', '2016-03-21 01:46:19')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES('DILLON FRANCIS', '2016-03-21 01:46:19', '2016-03-21 01:46:19')[0m
+  [4;36;1mDj Create (0.3ms)[0m   [0;1mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES('KSHMR', '2016-03-21 01:46:19', '2016-03-21 01:46:19')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES('BL3ND', '2016-03-21 01:46:19', '2016-03-21 01:46:19')[0m
+  [4;36;1mDj Create (0.3ms)[0m   [0;1mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES('FIREBEATZ', '2016-03-21 01:46:19', '2016-03-21 01:46:19')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES('DEORRO', '2016-03-21 01:46:19', '2016-03-21 01:46:19')[0m
+  [4;36;1mDj Create (0.3ms)[0m   [0;1mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES('ERIC PRYDZ', '2016-03-21 01:46:19', '2016-03-21 01:46:19')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES('QUINTINO', '2016-03-21 01:46:19', '2016-03-21 01:46:19')[0m
+  [4;36;1mDj Create (0.2ms)[0m   [0;1mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES('MAKJ', '2016-03-21 01:46:19', '2016-03-21 01:46:19')[0m
+  [4;35;1mDj Create (0.5ms)[0m   [0mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES('RICHIE HAWTIN', '2016-03-21 01:46:19', '2016-03-21 01:46:19')[0m
+  [4;36;1mDj Create (0.2ms)[0m   [0;1mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES('KASKADE', '2016-03-21 01:46:19', '2016-03-21 01:46:19')[0m
+  [4;35;1mDj Create (0.2ms)[0m   [0mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES('ADAM BEYER', '2016-03-21 01:46:19', '2016-03-21 01:46:19')[0m
+  [4;36;1mDj Create (0.3ms)[0m   [0;1mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES('SVEN VATH', '2016-03-21 01:46:19', '2016-03-21 01:46:19')[0m
+  [4;35;1mDj Create (0.4ms)[0m   [0mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES('KYGO', '2016-03-21 01:46:19', '2016-03-21 01:46:19')[0m
+  [4;36;1mDj Create (0.3ms)[0m   [0;1mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES('THE CHAINSMOKERS', '2016-03-21 01:46:19', '2016-03-21 01:46:19')[0m
+  [4;35;1mDj Create (0.2ms)[0m   [0mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES('MARKUS SCHULZ', '2016-03-21 01:46:19', '2016-03-21 01:46:19')[0m
+  [4;36;1mDj Create (0.3ms)[0m   [0;1mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES('SICK INDIVIDUALS', '2016-03-21 01:46:19', '2016-03-21 01:46:19')[0m
+  [4;35;1mDj Create (0.2ms)[0m   [0mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES('3LAU', '2016-03-21 01:46:19', '2016-03-21 01:46:19')[0m
+  [4;36;1mDj Create (0.3ms)[0m   [0;1mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES('ALY & FILA', '2016-03-21 01:46:19', '2016-03-21 01:46:19')[0m
+  [4;35;1mDj Create (0.2ms)[0m   [0mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES('BORGORE', '2016-03-21 01:46:19', '2016-03-21 01:46:19')[0m
+  [4;36;1mDj Create (0.3ms)[0m   [0;1mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES('CARNAGE', '2016-03-21 01:46:19', '2016-03-21 01:46:19')[0m
+  [4;35;1mDj Create (0.2ms)[0m   [0mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES('NINA KRAVIZ', '2016-03-21 01:46:19', '2016-03-21 01:46:19')[0m
+  [4;36;1mDj Create (0.2ms)[0m   [0;1mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES('CHUCKIE', '2016-03-21 01:46:19', '2016-03-21 01:46:19')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES('PAUL OAKENFOLD', '2016-03-21 01:46:19', '2016-03-21 01:46:19')[0m
+  [4;36;1mDj Create (0.3ms)[0m   [0;1mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES('FERRY CORSTEN', '2016-03-21 01:46:19', '2016-03-21 01:46:19')[0m
+  [4;35;1mDj Create (0.4ms)[0m   [0mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES('THOMAS GOLD', '2016-03-21 01:46:20', '2016-03-21 01:46:20')[0m
+  [4;36;1mDj Create (0.3ms)[0m   [0;1mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES('MARCO CAROLA', '2016-03-21 01:46:20', '2016-03-21 01:46:20')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES('BENNY BENASSI', '2016-03-21 01:46:20', '2016-03-21 01:46:20')[0m
+  [4;36;1mDj Create (0.3ms)[0m   [0;1mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES('JAY HARDWAY', '2016-03-21 01:46:20', '2016-03-21 01:46:20')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES('DUBFIRE', '2016-03-21 01:46:20', '2016-03-21 01:46:20')[0m
+  [4;36;1mDj Create (0.4ms)[0m   [0;1mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES('MOTI', '2016-03-21 01:46:20', '2016-03-21 01:46:20')[0m
+  [4;35;1mDj Create (0.5ms)[0m   [0mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES('TJR', '2016-03-21 01:46:20', '2016-03-21 01:46:20')[0m
+  [4;36;1mDj Create (0.3ms)[0m   [0;1mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES('LOCO DICE', '2016-03-21 01:46:20', '2016-03-21 01:46:20')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES('ADVENTURE CLUB', '2016-03-21 01:46:20', '2016-03-21 01:46:20')[0m
+  [4;36;1mDj Create (0.3ms)[0m   [0;1mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES('DZEKO & TORRES', '2016-03-21 01:46:20', '2016-03-21 01:46:20')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES('GARETH EMERY', '2016-03-21 01:46:20', '2016-03-21 01:46:20')[0m
+  [4;36;1mDj Create (0.2ms)[0m   [0;1mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES('DIRTY SOUTH', '2016-03-21 01:46:20', '2016-03-21 01:46:20')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES('NYK', '2016-03-21 01:46:20', '2016-03-21 01:46:20')[0m
+  [4;36;1mDj Create (0.4ms)[0m   [0;1mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES('FTAMPA', '2016-03-21 01:46:20', '2016-03-21 01:46:20')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES('HEADHUNTERZ', '2016-03-21 01:46:20', '2016-03-21 01:46:20')[0m
+  [4;36;1mDj Create (0.4ms)[0m   [0;1mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES('VICETONE', '2016-03-21 01:46:20', '2016-03-21 01:46:20')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES('KILL THE NOISE', '2016-03-21 01:46:20', '2016-03-21 01:46:20')[0m
+  [4;36;1mDj Create (0.3ms)[0m   [0;1mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES('JOHN DIGWEED', '2016-03-21 01:46:20', '2016-03-21 01:46:20')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES('UMEK', '2016-03-21 01:46:20', '2016-03-21 01:46:20')[0m
+  [4;36;1mDj Create (0.3ms)[0m   [0;1mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES('MOGUAI', '2016-03-21 01:46:20', '2016-03-21 01:46:20')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES('ANDREW RAYEL', '2016-03-21 01:46:20', '2016-03-21 01:46:20')[0m
+  [4;36;1mDj Create (0.3ms)[0m   [0;1mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES('REDFOO', '2016-03-21 01:46:20', '2016-03-21 01:46:20')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES('JAUZ', '2016-03-21 01:46:20', '2016-03-21 01:46:20')[0m
+  [4;36;1mDj Create (0.3ms)[0m   [0;1mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES('JAMIE JONES', '2016-03-21 01:46:20', '2016-03-21 01:46:20')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES('SHADOW', '2016-03-21 01:46:20', '2016-03-21 01:46:20')[0m
+  [4;36;1mDj Create (0.3ms)[0m   [0;1mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES('ZOMBOY', '2016-03-21 01:46:20', '2016-03-21 01:46:20')[0m
+  [4;35;1mDj Create (0.3ms)[0m   [0mINSERT INTO "djs" ("name", "updated_at", "created_at") VALUES('MACEO PLEX', '2016-03-21 01:46:20', '2016-03-21 01:46:20')[0m
+
+
+Processing DjsController#index (for 71.53.168.252 at 2016-03-21 01:46:30) [GET]
+  [4;36;1mDj Load (1.4ms)[0m   [0;1mSELECT * FROM "djs" [0m
+Rendering template within layouts/djs
+Rendering djs/index
+Completed in 196ms (View: 188, DB: 1) | 200 OK [https://the-dj-list-dev-test-nealhdotdev.c9users.io/djs]
+
+
+Processing DjsController#show (for 71.53.168.252 at 2016-03-21 01:46:45) [GET]
+  Parameters: {"id"=>"202"}
+  [4;35;1mDj Load (0.2ms)[0m   [0mSELECT * FROM "djs" WHERE ("djs"."id" = 202) [0m
+Rendering template within layouts/djs
+Rendering djs/show
+Completed in 9ms (View: 5, DB: 0) | 200 OK [https://the-dj-list-dev-test-nealhdotdev.c9users.io/djs/202]
+
+
+Processing DjsController#index (for 71.53.168.252 at 2016-03-21 01:46:46) [GET]
+  [4;36;1mDj Load (1.3ms)[0m   [0;1mSELECT * FROM "djs" [0m
+Rendering template within layouts/djs
+Rendering djs/index
+Completed in 166ms (View: 161, DB: 1) | 200 OK [https://the-dj-list-dev-test-nealhdotdev.c9users.io/djs]
+
+
+Processing DjsController#index (for 71.53.168.252 at 2016-03-21 01:46:51) [GET]
+  [4;35;1mDj Load (1.3ms)[0m   [0mSELECT * FROM "djs" [0m
+Rendering template within layouts/djs
+Rendering djs/index
+Completed in 196ms (View: 190, DB: 1) | 200 OK [https://the-dj-list-dev-test-nealhdotdev.c9users.io/]
