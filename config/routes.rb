@@ -1,6 +1,7 @@
 ActionController::Routing::Routes.draw do |map|
   map.resources :djs
-
+  
+  map.root :controller => 'djs'
   # The priority is based upon order of creation: first created -> highest priority.
 
   # Sample of regular route:

@@ -24,3 +24,1333 @@ Migrating to CreateDjs (20160321001738)
  WHERE type = 'table' AND NOT name = 'sqlite_sequence'
 [0m
   [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("djs")[0m
+
+
+Processing DjsController#index (for 71.53.168.252 at 2016-03-21 00:39:17) [GET]
+  [4;36;1mDj Load (0.4ms)[0m   [0;1mSELECT * FROM "djs" [0m
+Rendering template within layouts/djs
+Rendering djs/index
+Completed in 17ms (View: 13, DB: 0) | 200 OK [https://the-dj-list-dev-test-nealhdotdev.c9users.io/djs]
+
+
+Processing ApplicationController#index (for 71.53.168.252 at 2016-03-21 00:41:57) [GET]
+
+NameError (uninitialized constant DjsControllerController):
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (17.7ms)
+Rendered rescues/_request_and_response (1.8ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DjsController#index (for 71.53.168.252 at 2016-03-21 00:42:21) [GET]
+  [4;36;1mDj Load (0.4ms)[0m   [0;1mSELECT * FROM "djs" [0m
+Rendering template within layouts/djs
+Rendering djs/index
+Completed in 13ms (View: 9, DB: 0) | 200 OK [https://the-dj-list-dev-test-nealhdotdev.c9users.io/]
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateDjs (20160321001738)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("djs")[0m
+
+
+Processing DjsController#index (for 71.53.168.252 at 2016-03-21 00:57:44) [GET]
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.3ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+NameError (undefined local variable or method `djs' for #<Class:0x7f149d139f08>):
+  app/models/dj.rb:4
+  app/controllers/djs_controller.rb:5:in `index'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+  [4;35;1mSQL (0.3ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Rendered rescues/_trace (25.9ms)
+Rendered rescues/_request_and_response (0.9ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DjsController#index (for 71.53.168.252 at 2016-03-21 00:59:04) [GET]
+
+Errno::ENOENT (No such file or directory - djs.csv):
+  app/models/dj.rb:5:in `read'
+  app/models/dj.rb:5
+  app/controllers/djs_controller.rb:5:in `index'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (65.9ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DjsController#index (for 71.53.168.252 at 2016-03-21 00:59:26) [GET]
+
+Errno::ENAMETOOLONG (File name too long - DAVID GUETTA
+HARDWELL
+TIESTO
+MARTIN GARRIX
+AVICII
+AFROJACK
+DIMITRI VEGAS & LIKE MIKE
+SKRILLEX
+ARMIN VAN BUUREN
+CALVIN HARRIS
+STEVE AOKI
+NICKY ROMERO
+DEADMAU5
+R3HAB
+SWEDISH HOUSE MAFIA
+ZEDD
+W&W
+DVBBS
+DAFT PUNK
+ALESSO
+SNAKE
+AXWELL
+NERVO
+BLASTERJAXX
+SHOWTEK
+FEDDE LE GRAND
+DIPLO
+PAUL VAN DYK
+BORGEOUS
+JUICY M
+DASH BERLIN
+SANDER VAN DOORN
+ABOVE & BEYOND
+BASSJACKERS
+TOMMY TRASH
+CARL COX
+LAIDBACK LUKE
+BINGO PLAYERS
+UMMET OZCAN
+DADA LIFE
+DANNIC
+STEVE ANGELLO
+KNIFE PARTY
+MAJOR LAZER
+OLIVER HELDENS
+KREWELLA
+VINAI
+DYRO
+DON DIABLO
+DILLON FRANCIS
+KSHMR
+BL3ND
+FIREBEATZ
+DEORRO
+ERIC PRYDZ
+QUINTINO
+MAKJ
+RICHIE HAWTIN
+KASKADE
+ADAM BEYER
+SVEN VATH
+KYGO
+THE CHAINSMOKERS
+MARKUS SCHULZ
+SICK INDIVIDUALS
+3LAU
+ALY & FILA
+BORGORE
+CARNAGE
+NINA KRAVIZ
+CHUCKIE
+PAUL OAKENFOLD
+FERRY CORSTEN
+THOMAS GOLD
+MARCO CAROLA
+BENNY BENASSI
+JAY HARDWAY
+DUBFIRE
+MOTI
+TJR
+LOCO DICE
+ADVENTURE CLUB
+DZEKO & TORRES
+GARETH EMERY
+DIRTY SOUTH
+NYK
+FTAMPA
+HEADHUNTERZ
+VICETONE
+KILL THE NOISE
+JOHN DIGWEED
+UMEK
+MOGUAI
+ANDREW RAYEL
+REDFOO
+JAUZ
+JAMIE JONES
+SHADOW
+ZOMBOY
+MACEO PLEX):
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/csv.rb:308:in `initialize'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/csv.rb:308:in `open'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/csv.rb:308:in `open_reader'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/csv.rb:94:in `foreach'
+  app/models/dj.rb:6
+  app/controllers/djs_controller.rb:5:in `index'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (25.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DjsController#index (for 71.53.168.252 at 2016-03-21 01:01:30) [GET]
+
+Errno::ENAMETOOLONG (File name too long - DAVID GUETTA,
+HARDWELL,
+TIESTO,
+MARTIN GARRIX,
+AVICII,
+AFROJACK,
+DIMITRI VEGAS & LIKE MIKE,
+SKRILLEX,
+ARMIN VAN BUUREN,
+CALVIN HARRIS,
+STEVE AOKI,
+NICKY ROMERO,
+DEADMAU5,
+R3HAB,
+SWEDISH HOUSE MAFIA,
+ZEDD,
+W&W,
+DVBBS,
+DAFT PUNK,
+ALESSO,
+SNAKE,
+AXWELL,
+NERVO,
+BLASTERJAXX,
+SHOWTEK,
+FEDDE LE GRAND,
+DIPLO,
+PAUL VAN DYK,
+BORGEOUS,
+JUICY M,
+DASH BERLIN,
+SANDER VAN DOORN,
+ABOVE & BEYOND,
+BASSJACKERS,
+TOMMY TRASH,
+CARL COX,
+LAIDBACK LUKE,
+BINGO PLAYERS,
+UMMET OZCAN,
+DADA LIFE,
+DANNIC,
+STEVE ANGELLO,
+KNIFE PARTY,
+MAJOR LAZER,
+OLIVER HELDENS,
+KREWELLA,
+VINAI,
+DYRO,
+DON DIABLO,
+DILLON FRANCIS,
+KSHMR,
+BL3ND,
+FIREBEATZ,
+DEORRO,
+ERIC PRYDZ,
+QUINTINO,
+MAKJ,
+RICHIE HAWTIN,
+KASKADE,
+ADAM BEYER,
+SVEN VATH,
+KYGO,
+THE CHAINSMOKERS,
+MARKUS SCHULZ,
+SICK INDIVIDUALS,
+3LAU,
+ALY & FILA,
+BORGORE,
+CARNAGE,
+NINA KRAVIZ,
+CHUCKIE,
+PAUL OAKENFOLD,
+FERRY CORSTEN,
+THOMAS GOLD,
+MARCO CAROLA,
+BENNY BENASSI,
+JAY HARDWAY,
+DUBFIRE,
+MOTI,
+TJR,
+LOCO DICE,
+ADVENTURE CLUB,
+DZEKO & TORRES,
+GARETH EMERY,
+DIRTY SOUTH,
+NYK,
+FTAMPA,
+HEADHUNTERZ,
+VICETONE,
+KILL THE NOISE,
+JOHN DIGWEED,
+UMEK,
+MOGUAI,
+ANDREW RAYEL,
+REDFOO,
+JAUZ,
+JAMIE JONES,
+SHADOW,
+ZOMBOY,
+MACEO PLEX,):
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/csv.rb:308:in `initialize'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/csv.rb:308:in `open'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/csv.rb:308:in `open_reader'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/csv.rb:94:in `foreach'
+  app/models/dj.rb:6
+  app/controllers/djs_controller.rb:5:in `index'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (63.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DjsController#index (for 71.53.168.252 at 2016-03-21 01:01:52) [GET]
+
+Errno::ENAMETOOLONG (File name too long - DAVID GUETTA,
+HARDWELL,
+TIESTO,
+MARTIN GARRIX,
+AVICII,
+AFROJACK,
+DIMITRI VEGAS & LIKE MIKE,
+SKRILLEX,
+ARMIN VAN BUUREN,
+CALVIN HARRIS,
+STEVE AOKI,
+NICKY ROMERO,
+DEADMAU5,
+R3HAB,
+SWEDISH HOUSE MAFIA,
+ZEDD,
+W&W,
+DVBBS,
+DAFT PUNK,
+ALESSO,
+SNAKE,
+AXWELL,
+NERVO,
+BLASTERJAXX,
+SHOWTEK,
+FEDDE LE GRAND,
+DIPLO,
+PAUL VAN DYK,
+BORGEOUS,
+JUICY M,
+DASH BERLIN,
+SANDER VAN DOORN,
+ABOVE & BEYOND,
+BASSJACKERS,
+TOMMY TRASH,
+CARL COX,
+LAIDBACK LUKE,
+BINGO PLAYERS,
+UMMET OZCAN,
+DADA LIFE,
+DANNIC,
+STEVE ANGELLO,
+KNIFE PARTY,
+MAJOR LAZER,
+OLIVER HELDENS,
+KREWELLA,
+VINAI,
+DYRO,
+DON DIABLO,
+DILLON FRANCIS,
+KSHMR,
+BL3ND,
+FIREBEATZ,
+DEORRO,
+ERIC PRYDZ,
+QUINTINO,
+MAKJ,
+RICHIE HAWTIN,
+KASKADE,
+ADAM BEYER,
+SVEN VATH,
+KYGO,
+THE CHAINSMOKERS,
+MARKUS SCHULZ,
+SICK INDIVIDUALS,
+3LAU,
+ALY & FILA,
+BORGORE,
+CARNAGE,
+NINA KRAVIZ,
+CHUCKIE,
+PAUL OAKENFOLD,
+FERRY CORSTEN,
+THOMAS GOLD,
+MARCO CAROLA,
+BENNY BENASSI,
+JAY HARDWAY,
+DUBFIRE,
+MOTI,
+TJR,
+LOCO DICE,
+ADVENTURE CLUB,
+DZEKO & TORRES,
+GARETH EMERY,
+DIRTY SOUTH,
+NYK,
+FTAMPA,
+HEADHUNTERZ,
+VICETONE,
+KILL THE NOISE,
+JOHN DIGWEED,
+UMEK,
+MOGUAI,
+ANDREW RAYEL,
+REDFOO,
+JAUZ,
+JAMIE JONES,
+SHADOW,
+ZOMBOY,
+MACEO PLEX,):
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/csv.rb:308:in `initialize'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/csv.rb:308:in `open'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/csv.rb:308:in `open_reader'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/csv.rb:94:in `foreach'
+  app/models/dj.rb:6
+  app/controllers/djs_controller.rb:5:in `index'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (22.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DjsController#index (for 71.53.168.252 at 2016-03-21 01:02:27) [GET]
+
+Errno::ENAMETOOLONG (File name too long - DAVID GUETTA,
+HARDWELL,
+TIESTO,
+MARTIN GARRIX,
+AVICII,
+AFROJACK,
+DIMITRI VEGAS & LIKE MIKE,
+SKRILLEX,
+ARMIN VAN BUUREN,
+CALVIN HARRIS,
+STEVE AOKI,
+NICKY ROMERO,
+DEADMAU5,
+R3HAB,
+SWEDISH HOUSE MAFIA,
+ZEDD,
+W&W,
+DVBBS,
+DAFT PUNK,
+ALESSO,
+SNAKE,
+AXWELL,
+NERVO,
+BLASTERJAXX,
+SHOWTEK,
+FEDDE LE GRAND,
+DIPLO,
+PAUL VAN DYK,
+BORGEOUS,
+JUICY M,
+DASH BERLIN,
+SANDER VAN DOORN,
+ABOVE & BEYOND,
+BASSJACKERS,
+TOMMY TRASH,
+CARL COX,
+LAIDBACK LUKE,
+BINGO PLAYERS,
+UMMET OZCAN,
+DADA LIFE,
+DANNIC,
+STEVE ANGELLO,
+KNIFE PARTY,
+MAJOR LAZER,
+OLIVER HELDENS,
+KREWELLA,
+VINAI,
+DYRO,
+DON DIABLO,
+DILLON FRANCIS,
+KSHMR,
+BL3ND,
+FIREBEATZ,
+DEORRO,
+ERIC PRYDZ,
+QUINTINO,
+MAKJ,
+RICHIE HAWTIN,
+KASKADE,
+ADAM BEYER,
+SVEN VATH,
+KYGO,
+THE CHAINSMOKERS,
+MARKUS SCHULZ,
+SICK INDIVIDUALS,
+3LAU,
+ALY & FILA,
+BORGORE,
+CARNAGE,
+NINA KRAVIZ,
+CHUCKIE,
+PAUL OAKENFOLD,
+FERRY CORSTEN,
+THOMAS GOLD,
+MARCO CAROLA,
+BENNY BENASSI,
+JAY HARDWAY,
+DUBFIRE,
+MOTI,
+TJR,
+LOCO DICE,
+ADVENTURE CLUB,
+DZEKO & TORRES,
+GARETH EMERY,
+DIRTY SOUTH,
+NYK,
+FTAMPA,
+HEADHUNTERZ,
+VICETONE,
+KILL THE NOISE,
+JOHN DIGWEED,
+UMEK,
+MOGUAI,
+ANDREW RAYEL,
+REDFOO,
+JAUZ,
+JAMIE JONES,
+SHADOW,
+ZOMBOY,
+MACEO PLEX,):
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/csv.rb:308:in `initialize'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/csv.rb:308:in `open'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/csv.rb:308:in `open_reader'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/csv.rb:94:in `foreach'
+  app/models/dj.rb:6
+  app/controllers/djs_controller.rb:5:in `index'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (69.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DjsController#index (for 71.53.168.252 at 2016-03-21 01:05:00) [GET]
+
+NoMethodError (undefined method `path' for File:Class):
+  app/models/dj.rb:5
+  app/controllers/djs_controller.rb:5:in `index'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (26.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DjsController#index (for 71.53.168.252 at 2016-03-21 01:05:58) [GET]
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+NoMethodError (undefined method `File' for #<Class:0x7f149ce0a0d0>):
+  app/models/dj.rb:5
+  app/controllers/djs_controller.rb:5:in `index'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Rendered rescues/_trace (59.7ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DjsController#index (for 71.53.168.252 at 2016-03-21 01:06:18) [GET]
+
+Errno::ENAMETOOLONG (File name too long - DAVID GUETTA
+HARDWELL
+TIESTO
+MARTIN GARRIX
+AVICII
+AFROJACK
+DIMITRI VEGAS & LIKE MIKE
+SKRILLEX
+ARMIN VAN BUUREN
+CALVIN HARRIS
+STEVE AOKI
+NICKY ROMERO
+DEADMAU5
+R3HAB
+SWEDISH HOUSE MAFIA
+ZEDD
+W&W
+DVBBS
+DAFT PUNK
+ALESSO
+SNAKE
+AXWELL
+NERVO
+BLASTERJAXX
+SHOWTEK
+FEDDE LE GRAND
+DIPLO
+PAUL VAN DYK
+BORGEOUS
+JUICY M
+DASH BERLIN
+SANDER VAN DOORN
+ABOVE & BEYOND
+BASSJACKERS
+TOMMY TRASH
+CARL COX
+LAIDBACK LUKE
+BINGO PLAYERS
+UMMET OZCAN
+DADA LIFE
+DANNIC
+STEVE ANGELLO
+KNIFE PARTY
+MAJOR LAZER
+OLIVER HELDENS
+KREWELLA
+VINAI
+DYRO
+DON DIABLO
+DILLON FRANCIS
+KSHMR
+BL3ND
+FIREBEATZ
+DEORRO
+ERIC PRYDZ
+QUINTINO
+MAKJ
+RICHIE HAWTIN
+KASKADE
+ADAM BEYER
+SVEN VATH
+KYGO
+THE CHAINSMOKERS
+MARKUS SCHULZ
+SICK INDIVIDUALS
+3LAU
+ALY & FILA
+BORGORE
+CARNAGE
+NINA KRAVIZ
+CHUCKIE
+PAUL OAKENFOLD
+FERRY CORSTEN
+THOMAS GOLD
+MARCO CAROLA
+BENNY BENASSI
+JAY HARDWAY
+DUBFIRE
+MOTI
+TJR
+LOCO DICE
+ADVENTURE CLUB
+DZEKO & TORRES
+GARETH EMERY
+DIRTY SOUTH
+NYK
+FTAMPA
+HEADHUNTERZ
+VICETONE
+KILL THE NOISE
+JOHN DIGWEED
+UMEK
+MOGUAI
+ANDREW RAYEL
+REDFOO
+JAUZ
+JAMIE JONES
+SHADOW
+ZOMBOY
+MACEO PLEX
+):
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/csv.rb:308:in `initialize'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/csv.rb:308:in `open'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/csv.rb:308:in `open_reader'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/csv.rb:94:in `foreach'
+  app/models/dj.rb:6
+  app/controllers/djs_controller.rb:5:in `index'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (20.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DjsController#index (for 71.53.168.252 at 2016-03-21 01:10:43) [GET]
+
+Errno::EBADF (Bad file descriptor):
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/csv.rb:308:in `initialize'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/csv.rb:308:in `open'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/csv.rb:308:in `open_reader'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/csv.rb:94:in `foreach'
+  app/models/dj.rb:8
+  app/controllers/djs_controller.rb:5:in `index'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (20.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DjsController#index (for 71.53.168.252 at 2016-03-21 01:11:07) [GET]
+
+Errno::ENAMETOOLONG (File name too long - DAVID GUETTA
+HARDWELL
+TIESTO
+MARTIN GARRIX
+AVICII
+AFROJACK
+DIMITRI VEGAS & LIKE MIKE
+SKRILLEX
+ARMIN VAN BUUREN
+CALVIN HARRIS
+STEVE AOKI
+NICKY ROMERO
+DEADMAU5
+R3HAB
+SWEDISH HOUSE MAFIA
+ZEDD
+W&W
+DVBBS
+DAFT PUNK
+ALESSO
+SNAKE
+AXWELL
+NERVO
+BLASTERJAXX
+SHOWTEK
+FEDDE LE GRAND
+DIPLO
+PAUL VAN DYK
+BORGEOUS
+JUICY M
+DASH BERLIN
+SANDER VAN DOORN
+ABOVE & BEYOND
+BASSJACKERS
+TOMMY TRASH
+CARL COX
+LAIDBACK LUKE
+BINGO PLAYERS
+UMMET OZCAN
+DADA LIFE
+DANNIC
+STEVE ANGELLO
+KNIFE PARTY
+MAJOR LAZER
+OLIVER HELDENS
+KREWELLA
+VINAI
+DYRO
+DON DIABLO
+DILLON FRANCIS
+KSHMR
+BL3ND
+FIREBEATZ
+DEORRO
+ERIC PRYDZ
+QUINTINO
+MAKJ
+RICHIE HAWTIN
+KASKADE
+ADAM BEYER
+SVEN VATH
+KYGO
+THE CHAINSMOKERS
+MARKUS SCHULZ
+SICK INDIVIDUALS
+3LAU
+ALY & FILA
+BORGORE
+CARNAGE
+NINA KRAVIZ
+CHUCKIE
+PAUL OAKENFOLD
+FERRY CORSTEN
+THOMAS GOLD
+MARCO CAROLA
+BENNY BENASSI
+JAY HARDWAY
+DUBFIRE
+MOTI
+TJR
+LOCO DICE
+ADVENTURE CLUB
+DZEKO & TORRES
+GARETH EMERY
+DIRTY SOUTH
+NYK
+FTAMPA
+HEADHUNTERZ
+VICETONE
+KILL THE NOISE
+JOHN DIGWEED
+UMEK
+MOGUAI
+ANDREW RAYEL
+REDFOO
+JAUZ
+JAMIE JONES
+SHADOW
+ZOMBOY
+MACEO PLEX
+):
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/csv.rb:308:in `initialize'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/csv.rb:308:in `open'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/csv.rb:308:in `open_reader'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/csv.rb:94:in `foreach'
+  app/models/dj.rb:6
+  app/controllers/djs_controller.rb:5:in `index'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (20.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DjsController#index (for 71.53.168.252 at 2016-03-21 01:13:07) [GET]
+
+NoMethodError (undefined method `to_hash' for #<Array:0x7f149d0fe318>):
+  app/models/dj.rb:7
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/csv.rb:312:in `open_reader'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/csv.rb:532:in `parse'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/csv.rb:560:in `each'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/csv.rb:531:in `parse'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/csv.rb:311:in `open_reader'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/csv.rb:94:in `foreach'
+  app/models/dj.rb:6
+  app/controllers/djs_controller.rb:5:in `index'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (23.0ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DjsController#index (for 71.53.168.252 at 2016-03-21 01:13:49) [GET]
+
+NoMethodError (undefined method `stringify_keys!' for #<String:0x7f149cecaee8>):
+  app/models/dj.rb:7
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/csv.rb:312:in `open_reader'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/csv.rb:532:in `parse'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/csv.rb:560:in `each'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/csv.rb:531:in `parse'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/csv.rb:311:in `open_reader'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/csv.rb:94:in `foreach'
+  app/models/dj.rb:6
+  app/controllers/djs_controller.rb:5:in `index'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (60.3ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DjsController#index (for 71.53.168.252 at 2016-03-21 01:14:03) [GET]
+
+NoMethodError (undefined method `stringify_keys!' for #<CSV::Cell:0x7f149d031250>):
+  app/models/dj.rb:7
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/csv.rb:312:in `open_reader'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/csv.rb:532:in `parse'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/csv.rb:560:in `each'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/csv.rb:531:in `parse'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/csv.rb:311:in `open_reader'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/csv.rb:94:in `foreach'
+  app/models/dj.rb:6
+  app/controllers/djs_controller.rb:5:in `index'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (19.6ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DjsController#index (for 71.53.168.252 at 2016-03-21 01:14:27) [GET]
+
+NoMethodError (undefined method `to_hash' for #<Array:0x7f149cdd83a0>):
+  app/models/dj.rb:7
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/csv.rb:312:in `open_reader'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/csv.rb:532:in `parse'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/csv.rb:560:in `each'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/csv.rb:531:in `parse'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/csv.rb:311:in `open_reader'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/csv.rb:94:in `foreach'
+  app/models/dj.rb:6
+  app/controllers/djs_controller.rb:5:in `index'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (24.3ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DjsController#index (for 71.53.168.252 at 2016-03-21 01:15:28) [GET]
+
+TypeError (can't dup Fixnum):
+  app/models/dj.rb:7
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/csv.rb:312:in `open_reader'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/csv.rb:532:in `parse'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/csv.rb:560:in `each'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/csv.rb:531:in `parse'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/csv.rb:311:in `open_reader'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/csv.rb:94:in `foreach'
+  app/models/dj.rb:6
+  app/controllers/djs_controller.rb:5:in `index'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (32.4ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DjsController#index (for 71.53.168.252 at 2016-03-21 01:18:58) [GET]
+
+Errno::ENAMETOOLONG (File name too long - DAVID GUETTA
+HARDWELL
+TIESTO
+MARTIN GARRIX
+AVICII
+AFROJACK
+DIMITRI VEGAS & LIKE MIKE
+SKRILLEX
+ARMIN VAN BUUREN
+CALVIN HARRIS
+STEVE AOKI
+NICKY ROMERO
+DEADMAU5
+R3HAB
+SWEDISH HOUSE MAFIA
+ZEDD
+W&W
+DVBBS
+DAFT PUNK
+ALESSO
+SNAKE
+AXWELL
+NERVO
+BLASTERJAXX
+SHOWTEK
+FEDDE LE GRAND
+DIPLO
+PAUL VAN DYK
+BORGEOUS
+JUICY M
+DASH BERLIN
+SANDER VAN DOORN
+ABOVE & BEYOND
+BASSJACKERS
+TOMMY TRASH
+CARL COX
+LAIDBACK LUKE
+BINGO PLAYERS
+UMMET OZCAN
+DADA LIFE
+DANNIC
+STEVE ANGELLO
+KNIFE PARTY
+MAJOR LAZER
+OLIVER HELDENS
+KREWELLA
+VINAI
+DYRO
+DON DIABLO
+DILLON FRANCIS
+KSHMR
+BL3ND
+FIREBEATZ
+DEORRO
+ERIC PRYDZ
+QUINTINO
+MAKJ
+RICHIE HAWTIN
+KASKADE
+ADAM BEYER
+SVEN VATH
+KYGO
+THE CHAINSMOKERS
+MARKUS SCHULZ
+SICK INDIVIDUALS
+3LAU
+ALY & FILA
+BORGORE
+CARNAGE
+NINA KRAVIZ
+CHUCKIE
+PAUL OAKENFOLD
+FERRY CORSTEN
+THOMAS GOLD
+MARCO CAROLA
+BENNY BENASSI
+JAY HARDWAY
+DUBFIRE
+MOTI
+TJR
+LOCO DICE
+ADVENTURE CLUB
+DZEKO & TORRES
+GARETH EMERY
+DIRTY SOUTH
+NYK
+FTAMPA
+HEADHUNTERZ
+VICETONE
+KILL THE NOISE
+JOHN DIGWEED
+UMEK
+MOGUAI
+ANDREW RAYEL
+REDFOO
+JAUZ
+JAMIE JONES
+SHADOW
+ZOMBOY
+MACEO PLEX
+):
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/csv.rb:308:in `initialize'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/csv.rb:308:in `open'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/csv.rb:308:in `open_reader'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/csv.rb:94:in `foreach'
+  app/models/dj.rb:6
+  app/controllers/djs_controller.rb:5:in `index'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (28.7ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DjsController#index (for 71.53.168.252 at 2016-03-21 01:19:28) [GET]
+
+TypeError (can't dup Fixnum):
+  app/models/dj.rb:7
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/csv.rb:312:in `open_reader'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/csv.rb:532:in `parse'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/csv.rb:560:in `each'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/csv.rb:531:in `parse'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/csv.rb:311:in `open_reader'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/csv.rb:94:in `foreach'
+  app/models/dj.rb:6
+  app/controllers/djs_controller.rb:5:in `index'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (62.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DjsController#index (for 71.53.168.252 at 2016-03-21 01:22:06) [GET]
+  [4;36;1mDj Load (0.4ms)[0m   [0;1mSELECT * FROM "djs" [0m
+Rendering template within layouts/djs
+Rendering djs/index
+Completed in 31ms (View: 10, DB: 0) | 200 OK [https://the-dj-list-dev-test-nealhdotdev.c9users.io/]
+
+
+Processing DjsController#index (for 71.53.168.252 at 2016-03-21 01:22:49) [GET]
+
+NoMethodError (undefined method `name' for #<Array:0x7f5d96f3ec38>):
+  app/models/dj.rb:7
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/csv.rb:312:in `open_reader'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/csv.rb:532:in `parse'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/csv.rb:560:in `each'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/csv.rb:531:in `parse'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/csv.rb:311:in `open_reader'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/csv.rb:94:in `foreach'
+  app/models/dj.rb:6
+  app/controllers/djs_controller.rb:5:in `index'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (20.7ms)
+Rendered rescues/_request_and_response (0.8ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DjsController#index (for 71.53.168.252 at 2016-03-21 01:23:03) [GET]
+
+TypeError (can't dup Fixnum):
+  app/models/dj.rb:7
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/csv.rb:312:in `open_reader'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/csv.rb:532:in `parse'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/csv.rb:560:in `each'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/csv.rb:531:in `parse'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/csv.rb:311:in `open_reader'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/csv.rb:94:in `foreach'
+  app/models/dj.rb:6
+  app/controllers/djs_controller.rb:5:in `index'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (62.4ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DjsController#index (for 71.53.168.252 at 2016-03-21 01:25:59) [GET]
+
+TypeError (can't dup Fixnum):
+  app/models/dj.rb:8
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/csv.rb:312:in `open_reader'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/csv.rb:532:in `parse'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/csv.rb:560:in `each'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/csv.rb:531:in `parse'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/csv.rb:311:in `open_reader'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/csv.rb:94:in `foreach'
+  app/models/dj.rb:7
+  app/controllers/djs_controller.rb:5:in `index'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-head/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (28.3ms)
+Rendered rescues/_request_and_response (0.9ms)
+Rendering rescues/layout (internal_server_error)
